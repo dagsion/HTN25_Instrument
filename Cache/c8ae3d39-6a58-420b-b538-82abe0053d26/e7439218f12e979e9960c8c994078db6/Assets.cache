@@ -9,7 +9,7 @@
     - !<ObjectPrefab/f13761cb-39a1-4959-b36e-220534336d5e>
       PackagePath: ""
       objects:
-        - !<own> 5f8aca3a-411f-4359-9506-46bb6ac9d6da
+        - !<own> c8b7ab3b-7084-49de-bcd1-c964348a2eb6
       LazyLoading: false
       RetainAssets: true
     - !<AnimationAsset/1285dcec-5d0a-497e-b11c-0a6b3c82b238>
@@ -2606,7 +2606,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: c8ae3d39-6a58-420b-b538-82abe0053d26/e7439218f12e979e9960c8c994078db6/Data/.hidden/6533ae0/lambert18.glsl
+      ShaderPath: c8ae3d39-6a58-420b-b538-82abe0053d26/e7439218f12e979e9960c8c994078db6/Data/.hidden/0a4e116/lambert18.glsl
       Defines:
         []
       Properties:
@@ -2646,43 +2646,61 @@
   FileHash: fc8f1b594f61464b6778cf074a6d2180
   NativePackageItems:
     []
-- !<SceneObject/1d353cda-774c-4a5b-9c60-a1dfcab6ebaa>
+- !<SceneObject/0f8adfeb-6da1-4661-9f4b-3091abdb30eb>
   PrefabRemaps:
     []
-  Name: Disk_anim
+  Name: Cover_insert
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: -0.045953, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Position: {x: -0.018692, y: 0.798101, z: -0.638625}
+    Rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.797113, y: 0.722092, z: 0.722092}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 46f6623d-34f4-40db-a0f0-fcc0e284a1e6
-    - !<own> 93527a29-ee6e-49de-8f6e-bf1e961b56df
-  Components:
     []
-- !<AnimationPlayer/2263c392-88a2-4ae7-a9f4-687b0601d478>
+  Components:
+    - !<own> 1285e23e-0327-422a-a895-7f57ea0c4bd3
+- !<RenderMeshVisual/1285e23e-0327-422a-a895-7f57ea0c4bd3>
   PrefabRemaps:
     []
-  Name: component_3
+  Name: component_0
   Enabled: true
-  Autoplay: true
-  ClipRangeType: Frames
-  AnimationClips:
-    - !<AnimationClip>
-      AnimationAsset: !<reference> 1285dcec-5d0a-497e-b11c-0a6b3c82b238
-      Name: BaseLayer
-      Weight: 1.000000
-      PlaybackSpeed: 1.000000
-      Begin: 0.000000
-      End: 200.000000
-      Offset: 0.000000
-      Reversed: false
-      Disabled: false
-      BlendMode: Default
-      ScaleMode: Multiply
-      PlaybackMode: Loop
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 494021a8-59fa-406b-9cab-9f3c934ed660
+  Mesh: !<reference> af5a1086-56e5-4d8c-8b1d-8add32c11b7c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/1e6fa112-1225-45c7-967b-831ef63a75ea>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 93205670-264a-467b-bc11-871a7cc060be
+  Mesh: !<reference> e9d91018-a58c-414d-aac9-ec481bcbf589
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<PassInfo/287fae52-6c39-43f2-9a10-38af1f43079e>
   CachedProperties:
     - Port_Depth_N004:
@@ -2801,71 +2819,37 @@
       typeIdx: 3
       value: {x: 1.000000, y: 1.000000}
   Pass: !<reference> d52ed00a-efb8-4de4-ace8-06e0d4ac2ae1
-- !<SceneObject/291afa83-a964-4b21-b041-709687b3e316>
+- !<SceneObject/322ed8cf-4c5a-4c32-b00b-711b6bb46fdd>
   PrefabRemaps:
     []
-  Name: Cover_insert
+  Name: Disk_anim
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: -0.018692, y: 0.798101, z: -0.638625}
-    Rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    Scale: {x: 0.797113, y: 0.722092, z: 0.722092}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 4b7b761a-80bc-43e6-83ea-28e515b9b7b6
-- !<SceneObject/46f6623d-34f4-40db-a0f0-fcc0e284a1e6>
-  PrefabRemaps:
-    []
-  Name: plane_GLOW
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 90.000000, y: -0.000000, z: -1.354545}
-    Scale: {x: 8.365412, y: 8.365412, z: 8.365412}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> c2c30578-1eb2-4b22-837b-913e79b3eae9
-- !<RenderMeshVisual/4b7b761a-80bc-43e6-83ea-28e515b9b7b6>
-  PrefabRemaps:
-    []
-  Name: component_0
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 494021a8-59fa-406b-9cab-9f3c934ed660
-  Mesh: !<reference> af5a1086-56e5-4d8c-8b1d-8add32c11b7c
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/5f8aca3a-411f-4359-9506-46bb6ac9d6da>
-  PrefabRemaps:
-    []
-  Name: Box_vinyl_anim
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Position: {x: 0.000000, y: -0.045953, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 852ea270-d8f2-4f94-92d7-7e77d5be9c21
+    - !<own> 66f9faca-4491-4f36-b8bd-70449348899f
+    - !<own> 591666d2-45de-44a4-9fc1-49abac95f3c4
   Components:
-    - !<own> 2263c392-88a2-4ae7-a9f4-687b0601d478
+    []
+- !<SceneObject/591666d2-45de-44a4-9fc1-49abac95f3c4>
+  PrefabRemaps:
+    []
+  Name: diskC2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.003882, y: -0.018104, z: 0.003602}
+    Rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 0.508026, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1e6fa112-1225-45c7-967b-831ef63a75ea
 - !<PassInfo/634160a1-57a3-4453-b43c-8a1021b33b83>
   CachedProperties:
     - Port_Depth_N004:
@@ -2984,37 +2968,42 @@
       typeIdx: 3
       value: {x: 1.000000, y: 1.000000}
   Pass: !<reference> d52ed00a-efb8-4de4-ace8-06e0d4ac2ae1
-- !<SceneObject/852ea270-d8f2-4f94-92d7-7e77d5be9c21>
+- !<SceneObject/66f9faca-4491-4f36-b8bd-70449348899f>
   PrefabRemaps:
     []
-  Name: Disk_position
+  Name: plane_GLOW
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: 0.036050, y: 3.603002, z: 2.057821}
-    Rotation: {x: -24.600000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    - !<own> aef6497b-e60c-46e0-adb5-b1a2da08ce54
-  Components:
-    []
-- !<SceneObject/93527a29-ee6e-49de-8f6e-bf1e961b56df>
-  PrefabRemaps:
-    []
-  Name: diskC2
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: -0.003882, y: -0.018104, z: 0.003602}
-    Rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 0.508026, z: 1.000000}
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: -0.000000, z: -1.354545}
+    Scale: {x: 8.365412, y: 8.365412, z: 8.365412}
     HasSegmentScaleCompensation: false
   Children:
     []
   Components:
-    - !<own> d6ae55af-8dac-4fbc-aa82-2936467f99cc
-- !<SceneObject/aef6497b-e60c-46e0-adb5-b1a2da08ce54>
+    - !<own> 685bb85c-1ded-4951-af20-170e0c1b4cf5
+- !<RenderMeshVisual/685bb85c-1ded-4951-af20-170e0c1b4cf5>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e4a38ebf-1dad-45c1-b39f-e2c0e262a99d
+  Mesh: !<reference> c33c1378-89a0-487d-92f6-8021e75d74f4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9f9d4455-7fd7-4638-bf92-a135e9eec06f>
   PrefabRemaps:
     []
   Name: Disk_group
@@ -3026,8 +3015,23 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 291afa83-a964-4b21-b041-709687b3e316
-    - !<own> 1d353cda-774c-4a5b-9c60-a1dfcab6ebaa
+    - !<own> 0f8adfeb-6da1-4661-9f4b-3091abdb30eb
+    - !<own> 322ed8cf-4c5a-4c32-b00b-711b6bb46fdd
+  Components:
+    []
+- !<SceneObject/b29ff79f-e468-4680-82bc-e73b873b2f42>
+  PrefabRemaps:
+    []
+  Name: Disk_position
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.036050, y: 3.603002, z: 2.057821}
+    Rotation: {x: -24.600000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9f9d4455-7fd7-4638-bf92-a135e9eec06f
   Components:
     []
 - !<PassInfo/b3ae046f-92ea-45ea-94bb-7cb4e3cecf1d>
@@ -3148,43 +3152,39 @@
       typeIdx: 3
       value: {x: 1.000000, y: 1.000000}
   Pass: !<reference> d52ed00a-efb8-4de4-ace8-06e0d4ac2ae1
-- !<RenderMeshVisual/c2c30578-1eb2-4b22-837b-913e79b3eae9>
+- !<AnimationPlayer/b71266dd-0538-4e2f-87e2-3a52317458b2>
   PrefabRemaps:
     []
-  Name: component_1
+  Name: component_3
   Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> e4a38ebf-1dad-45c1-b39f-e2c0e262a99d
-  Mesh: !<reference> c33c1378-89a0-487d-92f6-8021e75d74f4
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<RenderMeshVisual/d6ae55af-8dac-4fbc-aa82-2936467f99cc>
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 1285dcec-5d0a-497e-b11c-0a6b3c82b238
+      Name: BaseLayer
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 200.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/c8b7ab3b-7084-49de-bcd1-c964348a2eb6>
   PrefabRemaps:
     []
-  Name: component_2
+  Name: Box_vinyl_anim
   Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 93205670-264a-467b-bc11-871a7cc060be
-  Mesh: !<reference> e9d91018-a58c-414d-aac9-ec481bcbf589
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> b29ff79f-e468-4680-82bc-e73b873b2f42
+  Components:
+    - !<own> b71266dd-0538-4e2f-87e2-3a52317458b2

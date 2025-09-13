@@ -2,12 +2,14 @@
   ImportedAssetIds:
     .hidden/lambert17: !<reference> d52ed00a-efb8-4de4-ace8-06e0d4ac2ae1
     .hidden/white: !<reference> 23e0240a-3822-47b8-af9e-aed820c66380
-    2f06fceb9984e1dd: !<reference> aef6497b-e60c-46e0-adb5-b1a2da08ce54
-    42c8473a5c27520c: !<reference> 1d353cda-774c-4a5b-9c60-a1dfcab6ebaa
-    66780cf3a4dcb2b8: !<reference> 5f8aca3a-411f-4359-9506-46bb6ac9d6da
-    751d031847c5b625: !<reference> 46f6623d-34f4-40db-a0f0-fcc0e284a1e6
-    7748968cc0c9ef13: !<reference> 291afa83-a964-4b21-b041-709687b3e316
-    7e1440e29cffa990: !<reference> d6ae55af-8dac-4fbc-aa82-2936467f99cc
+    08bcece8cd94dc92: !<reference> b29ff79f-e468-4680-82bc-e73b873b2f42
+    10b80b37287e956f: !<reference> 66f9faca-4491-4f36-b8bd-70449348899f
+    2028ca51e4a54211: !<reference> b71266dd-0538-4e2f-87e2-3a52317458b2
+    3efbe13578439abd: !<reference> 591666d2-45de-44a4-9fc1-49abac95f3c4
+    709507dd8471b1b0: !<reference> 1285e23e-0327-422a-a895-7f57ea0c4bd3
+    76e12fdf415d2cdb: !<reference> 1e6fa112-1225-45c7-967b-831ef63a75ea
+    7a0dd5cd69df73fa: !<reference> c8b7ab3b-7084-49de-bcd1-c964348a2eb6
+    9614263c74a68a52: !<reference> 0f8adfeb-6da1-4661-9f4b-3091abdb30eb
     BaseLayer: !<reference> 1285dcec-5d0a-497e-b11c-0a6b3c82b238
     Materials/lambert17: !<reference> 93205670-264a-467b-bc11-871a7cc060be
     Materials/lambert17|lambert17|GraphPassInfo: !<reference> 634160a1-57a3-4453-b43c-8a1021b33b83
@@ -19,11 +21,9 @@
     Meshes/diskC2: !<reference> e9d91018-a58c-414d-aac9-ec481bcbf589
     Meshes/plane_GLOW: !<reference> c33c1378-89a0-487d-92f6-8021e75d74f4
     Scene: !<reference> f13761cb-39a1-4959-b36e-220534336d5e
-    ab86b17526a251e6: !<reference> c2c30578-1eb2-4b22-837b-913e79b3eae9
-    b5115b3facdd09d1: !<reference> 852ea270-d8f2-4f94-92d7-7e77d5be9c21
-    b73ad091ef554e15: !<reference> 93527a29-ee6e-49de-8f6e-bf1e961b56df
-    d56449042852f529: !<reference> 2263c392-88a2-4ae7-a9f4-687b0601d478
-    fb46113f56b1775d: !<reference> 4b7b761a-80bc-43e6-83ea-28e515b9b7b6
+    ae648333506f65c1: !<reference> 9f9d4455-7fd7-4638-bf92-a135e9eec06f
+    b07316a6045a3f5a: !<reference> 322ed8cf-4c5a-4c32-b00b-711b6bb46fdd
+    eb10db8e883f33b1: !<reference> 685bb85c-1ded-4951-af20-170e0c1b4cf5
   ImporterName: FbxImporter
   PrimaryAsset: !<reference> f13761cb-39a1-4959-b36e-220534336d5e
   PackageType: LegacyPackage

@@ -2,19 +2,27 @@
   ImportedAssetIds:
     .hidden/Mat_DiscoBall: !<reference> 6e36dc94-eaad-4a15-aa5b-01495c41c570
     .hidden/white: !<reference> 9f9b71e2-3e11-4770-9478-1985e1d517ab
-    092a5b5c1b0ebba3: !<reference> fa9a1a75-edca-4957-a7fc-27091e630c79
-    0bd632f8ff4f658e: !<reference> 88c1345b-6723-44b4-9963-3f0126fdea1f
-    0dc58adbc02c978f: !<reference> a0a2168c-7adc-4ce8-ba50-95a5cabce8bf
-    1350ff33a6d80745: !<reference> b9121ca8-9155-483e-a3d2-35921e9754fb
-    25ac238d01ce6df5: !<reference> ec49a702-2e20-4acc-a722-f45b5aeb1a4a
-    33509c4c50e2d6ca: !<reference> 3b93269c-48b4-44dd-8fde-454046cc92e8
-    3a761072a0e5b1ab: !<reference> 99ee186f-407f-41b2-94fb-d18e313a550c
-    481fc4874ed43572: !<reference> c26655a9-e5eb-4a66-996d-ac9788fdc4cf
-    66780cf3a4dcb2b8: !<reference> 74796238-45ca-4302-96c6-15f573b0d256
-    68bea09b29efdaa1: !<reference> 188cc471-4c47-4f48-ba9c-879d8608a1c9
-    758a74dc70b73aa8: !<reference> 555ed010-05ee-41f9-b8ad-59f3680a4a8c
-    90e767abc2d76f40: !<reference> 9846a4d9-9d4f-412a-898b-4f96c162a1fc
-    9bc3fa50dcceea93: !<reference> 04d72975-0b10-4f7a-85a2-81371eb751c2
+    040a13b78aad0e3e: !<reference> cf86a6e2-5226-44c4-8fdd-46a3b3591839
+    064ee29704a2ccc1: !<reference> 55a04595-a701-48d2-a8f4-5ecb7b1be5b2
+    14700e3d03ad6020: !<reference> fa83fd50-9d02-4dc9-9033-839bf62b49c7
+    2028ca51e4a54211: !<reference> 7398546c-fcee-4577-9d11-dde05487c10e
+    218aebe549db0433: !<reference> 8e9594d0-1967-43ea-9c80-f7eabe0acf24
+    25509f17dcd46800: !<reference> c6ba1b66-a16b-48d8-b77f-b2ac1fee7e0c
+    30066d8bfc136c07: !<reference> 1d9a29a3-93ed-4233-a7c6-5ef6d7dc3d39
+    3ec9e7b12a612bb4: !<reference> ae338481-1a38-4568-825f-dd5f3b40e6b3
+    438c39d82a8f11f1: !<reference> c6bac06a-1c46-48fd-b347-dda81271f5da
+    45a7ea85f410780c: !<reference> 688e3d74-2457-4609-891a-23f94dee250c
+    565503fc7e49fb15: !<reference> 6c6730d9-d5e6-4950-83fa-3d60e39ecb3e
+    59599ed6252062a2: !<reference> 8fe70a19-e383-4330-90b5-e6d9208f58f6
+    67ae83d68ca9868c: !<reference> 910d4ac6-990a-4427-9710-856ac57a1a95
+    7a0dd5cd69df73fa: !<reference> ab9ebce9-49ee-4f1d-b236-ec00581ce638
+    81cc8ff6d88d31d0: !<reference> 1c99157c-c8ff-4134-b518-bd24fc04c8ab
+    836a9fb03bae91d0: !<reference> 9ef42698-fe52-45ae-b16a-af7ffd474416
+    88bd1ff21223e07a: !<reference> 7464146c-2ba3-41bc-9528-16ddc13bbf16
+    89792efafbe98db6: !<reference> 7b1b6034-4726-444b-bedd-53b9ec22b39e
+    913d127c69b6f07d: !<reference> 7945083c-149d-4110-8575-112d027ba416
+    95197669b2c19305: !<reference> 8004b2ad-7ffb-4c61-81a8-7e3b83bee8bc
+    99065f95bf12cfd7: !<reference> 4326d7f7-8e56-487e-9a25-2e4017f9e623
     BaseLayer: !<reference> e78e2442-6265-4e83-8479-816366d9d91b
     Materials/Mat_DiscoBall: !<reference> 780e3859-4940-42ae-9215-ea0e18d03009
     Materials/Mat_DiscoBall|Mat_DiscoBall|GraphPassInfo: !<reference> 6ed52db0-ffcb-4a73-a9d5-b2527f59dbf6
@@ -39,16 +47,8 @@
     Meshes/diskA: !<reference> dd1a1c20-62a5-43d7-a821-0e760b1f3a84
     Meshes/diskB: !<reference> cf36f54f-ccf7-491a-b6ab-4e487678f93b
     Scene: !<reference> e392d427-81fd-4aa9-a6b6-1dbcddc9741c
-    a2e60a02d6bdf906: !<reference> 2ae0a8b0-2854-4c81-a56b-a806d4aa5b77
-    b60b94fa054343c1: !<reference> 347bd739-2cd2-4a4b-b01f-348e5b8d7e2b
-    ca56d69fb95b02d2: !<reference> 02a98e8f-6ca1-4362-83f9-eb753c62e8ee
-    cb7cfd3286c21234: !<reference> aaf3714a-4bad-4629-bc00-ba0cbc42cbd4
-    d56449042852f529: !<reference> a9edcd0a-5716-4807-a458-b249db9ffe59
-    df63aecc6ba8c8c3: !<reference> 4a13ba94-19bc-4ded-a57f-1387dd02db34
-    e014867cb8da6ff2: !<reference> 6fcd8610-e05a-4311-8993-af1dcc7f1a07
-    e855d3974da1c6bf: !<reference> 6566b99d-8e7c-436f-bb80-b6aa9ebaf5e4
-    ed789ba151a486c9: !<reference> 4afdcd8c-1e9d-400f-a6f6-61d98214b050
-    f64d9817a9c8b161: !<reference> 161fa2a3-2029-420b-8fa0-199c93f8a8a2
+    a73b9d0262df4d3c: !<reference> 9a84fabb-f046-4502-b425-fe085d45ea91
+    d6f5576cd95ba704: !<reference> f8fea115-966e-4c2c-b7af-69a2991a0502
   ImporterName: FbxImporter
   PrimaryAsset: !<reference> e392d427-81fd-4aa9-a6b6-1dbcddc9741c
   PackageType: LegacyPackage

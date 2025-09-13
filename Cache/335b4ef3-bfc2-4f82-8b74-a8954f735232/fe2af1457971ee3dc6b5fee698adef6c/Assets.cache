@@ -543,7 +543,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: 335b4ef3-bfc2-4f82-8b74-a8954f735232/fe2af1457971ee3dc6b5fee698adef6c/Data/6533ae0/unlit.glsl
+      ShaderPath: 335b4ef3-bfc2-4f82-8b74-a8954f735232/fe2af1457971ee3dc6b5fee698adef6c/Data/0a4e116/unlit.glsl
       Defines:
         []
       Properties:

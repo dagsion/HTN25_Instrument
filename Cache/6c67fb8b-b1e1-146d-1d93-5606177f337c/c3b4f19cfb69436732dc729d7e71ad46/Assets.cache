@@ -159,7 +159,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: 6c67fb8b-b1e1-146d-1d93-5606177f337c/c3b4f19cfb69436732dc729d7e71ad46/Data/6533ae0/FingerTipGlow.glsl
+      ShaderPath: 6c67fb8b-b1e1-146d-1d93-5606177f337c/c3b4f19cfb69436732dc729d7e71ad46/Data/0a4e116/FingerTipGlow.glsl
       Defines:
         []
       Properties:

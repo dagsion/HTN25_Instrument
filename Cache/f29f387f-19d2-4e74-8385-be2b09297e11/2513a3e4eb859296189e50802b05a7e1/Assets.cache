@@ -268,7 +268,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: f29f387f-19d2-4e74-8385-be2b09297e11/2513a3e4eb859296189e50802b05a7e1/Data/6533ae0/Material Cover.glsl
+      ShaderPath: f29f387f-19d2-4e74-8385-be2b09297e11/2513a3e4eb859296189e50802b05a7e1/Data/0a4e116/Material Cover.glsl
       Defines:
         []
       Properties:

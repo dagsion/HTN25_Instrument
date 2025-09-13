@@ -9,7 +9,7 @@
     - !<ObjectPrefab/e111a725-10c8-4f23-888a-3e88af5cbac7>
       PackagePath: ""
       objects:
-        - !<own> ae6b9338-863a-44bd-a501-c71129759eb7
+        - !<own> dc33181a-ad80-4207-8db0-4cdce77b2f29
       LazyLoading: false
       RetainAssets: true
     - !<AnimationAsset/2f372563-6c5f-4eca-b00e-3cfbb92de067>
@@ -1459,7 +1459,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: 5b862e67-6fd7-412e-b4c7-0717c45366b0/606f7dbe5a2e6089b746212a794788e5/Data/.hidden/6533ae0/lambert18.glsl
+      ShaderPath: 5b862e67-6fd7-412e-b4c7-0717c45366b0/606f7dbe5a2e6089b746212a794788e5/Data/.hidden/0a4e116/lambert18.glsl
       Defines:
         []
       Properties:
@@ -1499,7 +1499,57 @@
   FileHash: ec8b7400cd25e38a21b0cc6bb5c27965
   NativePackageItems:
     []
-- !<RenderMeshVisual/154eae94-5c4f-41e2-8c31-3a06885710a0>
+- !<SceneObject/0e8b4e7d-dc2f-44d8-b7f6-ed0ecf972eaf>
+  PrefabRemaps:
+    []
+  Name: Box_main
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 3.955906, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b42d0c07-a6e3-49ad-aa99-cec0ea8c81f9
+- !<SceneObject/295c0f2c-d3b4-43e2-83dc-e2b73faae61a>
+  PrefabRemaps:
+    []
+  Name: Box_Cover
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -3.526338, y: 0.284188, z: 3.545180}
+    Rotation: {x: -24.600000, y: 0.000000, z: 0.000000}
+    Scale: {x: 7.243500, y: 7.243500, z: 0.165473}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 433e6171-ce40-486e-beb5-ae53b90e8105
+- !<RenderMeshVisual/2d593766-2a82-4745-b5a2-f0d60745612f>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4cc9d7f3-a8ad-4a37-a71a-3231a5bcbc66
+  Mesh: !<reference> 4b80b28c-b59e-4218-a77f-651e3ea36eb8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/433e6171-ce40-486e-beb5-ae53b90e8105>
   PrefabRemaps:
     []
   Name: component_2
@@ -1519,41 +1569,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<RenderMeshVisual/1c64f06f-f128-403f-bf65-0a77a1169e66>
-  PrefabRemaps:
-    []
-  Name: component_0
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> f8e00ba1-24fb-46a6-b6d3-f6fb03e3e18e
-  Mesh: !<reference> a11f017b-e758-4e9d-8c03-74047d989a31
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/33d23f1b-d9fa-44e5-9227-3fab8d67945b>
-  PrefabRemaps:
-    []
-  Name: Box_vinyls
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 3.955906, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> dece402f-6c92-404d-8205-0449ffe62f8c
 - !<PassInfo/44c4edb6-3d00-4111-9dcc-ee835e30a469>
   CachedProperties:
     - Port_Depth_N004:
@@ -1672,6 +1687,27 @@
       typeIdx: 3
       value: {x: 1.000000, y: 1.000000}
   Pass: !<reference> 93dc54b2-922b-4b3a-9c3a-01aec46a94f8
+- !<AnimationPlayer/63458d8d-cff5-4e1e-b341-bed4231724aa>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 2f372563-6c5f-4eca-b00e-3cfbb92de067
+      Name: BaseLayer
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 0.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
 - !<PassInfo/74c3fbc7-87d8-45f7-be54-ca281137a158>
   CachedProperties:
     - Port_Depth_N004:
@@ -1790,31 +1826,10 @@
       typeIdx: 3
       value: {x: 1.000000, y: 1.000000}
   Pass: !<reference> 93dc54b2-922b-4b3a-9c3a-01aec46a94f8
-- !<AnimationPlayer/8c7fb750-3b99-4e30-99e1-d425f00ea704>
+- !<SceneObject/925f36ff-29ba-46f0-8ee1-dd4f6a058818>
   PrefabRemaps:
     []
-  Name: component_3
-  Enabled: true
-  Autoplay: true
-  ClipRangeType: Frames
-  AnimationClips:
-    - !<AnimationClip>
-      AnimationAsset: !<reference> 2f372563-6c5f-4eca-b00e-3cfbb92de067
-      Name: BaseLayer
-      Weight: 1.000000
-      PlaybackSpeed: 1.000000
-      Begin: 0.000000
-      End: 0.000000
-      Offset: 0.000000
-      Reversed: false
-      Disabled: false
-      BlendMode: Default
-      ScaleMode: Multiply
-      PlaybackMode: Loop
-- !<SceneObject/9330983e-0d95-4a20-ae6c-9bea18b3d366>
-  PrefabRemaps:
-    []
-  Name: Box_main
+  Name: Box_vinyls
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -1825,8 +1840,28 @@
   Children:
     []
   Components:
-    - !<own> 1c64f06f-f128-403f-bf65-0a77a1169e66
-- !<SceneObject/ae6b9338-863a-44bd-a501-c71129759eb7>
+    - !<own> 2d593766-2a82-4745-b5a2-f0d60745612f
+- !<RenderMeshVisual/b42d0c07-a6e3-49ad-aa99-cec0ea8c81f9>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f8e00ba1-24fb-46a6-b6d3-f6fb03e3e18e
+  Mesh: !<reference> a11f017b-e758-4e9d-8c03-74047d989a31
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/dc33181a-ad80-4207-8db0-4cdce77b2f29>
   PrefabRemaps:
     []
   Name: Box_vinyls
@@ -1838,11 +1873,11 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 9330983e-0d95-4a20-ae6c-9bea18b3d366
-    - !<own> 33d23f1b-d9fa-44e5-9227-3fab8d67945b
-    - !<own> f59c6876-9929-466d-999a-463de125e697
+    - !<own> 0e8b4e7d-dc2f-44d8-b7f6-ed0ecf972eaf
+    - !<own> 925f36ff-29ba-46f0-8ee1-dd4f6a058818
+    - !<own> 295c0f2c-d3b4-43e2-83dc-e2b73faae61a
   Components:
-    - !<own> 8c7fb750-3b99-4e30-99e1-d425f00ea704
+    - !<own> 63458d8d-cff5-4e1e-b341-bed4231724aa
 - !<PassInfo/dc9171ff-8126-4c15-94b1-5588aaac9b43>
   CachedProperties:
     - Port_Depth_N004:
@@ -1961,38 +1996,3 @@
       typeIdx: 3
       value: {x: 1.000000, y: 1.000000}
   Pass: !<reference> 93dc54b2-922b-4b3a-9c3a-01aec46a94f8
-- !<RenderMeshVisual/dece402f-6c92-404d-8205-0449ffe62f8c>
-  PrefabRemaps:
-    []
-  Name: component_1
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> 4cc9d7f3-a8ad-4a37-a71a-3231a5bcbc66
-  Mesh: !<reference> 4b80b28c-b59e-4218-a77f-651e3ea36eb8
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/f59c6876-9929-466d-999a-463de125e697>
-  PrefabRemaps:
-    []
-  Name: Box_Cover
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: -3.526338, y: 0.284188, z: 3.545180}
-    Rotation: {x: -24.600000, y: 0.000000, z: 0.000000}
-    Scale: {x: 7.243500, y: 7.243500, z: 0.165473}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 154eae94-5c4f-41e2-8c31-3a06885710a0

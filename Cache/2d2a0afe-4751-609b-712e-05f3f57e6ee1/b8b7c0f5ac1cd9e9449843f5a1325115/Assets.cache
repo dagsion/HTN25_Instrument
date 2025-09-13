@@ -203,7 +203,7 @@
             mValues:
               []
         ShaderType: Mesh3d
-      ShaderPath: 2d2a0afe-4751-609b-712e-05f3f57e6ee1/b8b7c0f5ac1cd9e9449843f5a1325115/Data/6533ae0/FingerHighlightOpaque.glsl
+      ShaderPath: 2d2a0afe-4751-609b-712e-05f3f57e6ee1/b8b7c0f5ac1cd9e9449843f5a1325115/Data/0a4e116/FingerHighlightOpaque.glsl
       Defines:
         []
       Properties:
