@@ -1,0 +1,252 @@
+- !<ObjectPrefab/fae188f3-43b7-494f-b05f-2f6aa209bd8b>
+  PackagePath: ""
+  objects:
+    - !<own> c85a5864-6bd5-4be7-b413-7a0f3a537b5d
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/0039b6f1-e80a-4596-b987-5997d12e0500>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    manipulateRootSceneObject: true
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    enableTranslation: true
+    enableRotation: true
+    showStretchZProperties: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showFilterProperties: true
+    minCutoff: true
+    beta: true
+    dcutoff: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableTranslation: true
+      enableRotation: true
+      enableScale: false
+      enableStretchZ: false
+      showStretchZProperties: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showFilterProperties: false
+      minCutoff: !<float> 2.000000
+      beta: 0.015000
+      dcutoff: !<float> 1.000000
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/189fcf07-e60a-40b8-80f8-d15d9841eeed>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 657cbbe5-2a9c-4889-93fb-fd72ba8a1d52
+  ScriptInputsDefault:
+    targetOutlineMaterial: true
+    hoveringColor: true
+    activatingColor: true
+    outlineWeight: true
+    meshVisuals: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> 7ac80b6c-979a-4a00-a694-099f296be161
+      hoveringColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.040000, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: -0.250000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/2dd546f3-5bc1-4276-9eb0-70ecb70a28da>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+    isSynced: true
+    acceptableSyncInteractionTypes: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 1.000000
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+      isSynced: false
+      acceptableSyncInteractionTypes: !<float> 7.000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/2f65008b-7236-41bd-94bd-0335019c1439>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1016d454-ed83-47f2-9647-21dc5b5edc3c
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<BodyComponent/346e88b4-5910-4434-9264-0cb225cd09e8>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 2.250000, y: 2.250000, z: 1.000000}
+  Matter: !<reference> a26cc039-5298-4fcd-9486-322a254fa180
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 32fa292a-8acb-469e-b941-e9ec518d8ca0
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: false
+  BodySetting: Density
+  BodySettingValue: 0.100000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<SceneObject/48748b72-eaea-4710-aff4-f89b2fbfee9f>
+  PrefabRemaps:
+    []
+  Name: right stick
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -6.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -180.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.500000, y: 1.500000, z: 1.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ea58e7c8-7617-4af8-ab93-248b3e087d40
+- !<AudioComponent/4f7f703e-f7cd-4de0-80c8-0e36de284874>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 18c968e5-fbb5-46d1-bf14-87a993d5c80d
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: true
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: true
+  EnablePositionEffect: false
+- !<SceneObject/c85a5864-6bd5-4be7-b413-7a0f3a537b5d>
+  PrefabRemaps:
+    []
+  Name: DartNew
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 295.794678, z: -76.672874}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 48748b72-eaea-4710-aff4-f89b2fbfee9f
+  Components:
+    - !<own> 2f65008b-7236-41bd-94bd-0335019c1439
+    - !<own> 346e88b4-5910-4434-9264-0cb225cd09e8
+    - !<own> 2dd546f3-5bc1-4276-9eb0-70ecb70a28da
+    - !<own> 0039b6f1-e80a-4596-b987-5997d12e0500
+    - !<own> 189fcf07-e60a-40b8-80f8-d15d9841eeed
+    - !<own> 4f7f703e-f7cd-4de0-80c8-0e36de284874
+    - !<own> e90b4adb-efb3-4c72-8315-22a8b57d1771
+- !<ScriptComponent/e90b4adb-efb3-4c72-8315-22a8b57d1771>
+  PrefabRemaps:
+    []
+  Name: DartBehavior
+  Enabled: true
+  ScriptAsset: !<reference> 3f46f770-3bb8-4572-8c2d-8d7b8ca2b963
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/ea58e7c8-7617-4af8-ab93-248b3e087d40>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a02b2cbc-d54d-4185-98f3-ff4b55089794
+  Mesh: !<reference> d415e42c-9ae3-417b-83cf-74f67ad30e2a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

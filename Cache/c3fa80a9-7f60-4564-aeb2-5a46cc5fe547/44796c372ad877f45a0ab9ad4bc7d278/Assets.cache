@@ -1486,10 +1486,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Size
-    CompressionSettings: !<TextureCompressionSettings>
-      Level: Medium
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/16698482-8678-44cf-bac4-684cd60823fc>
   PrefabRemaps:
     []
@@ -2960,10 +2957,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Size
-    CompressionSettings: !<TextureCompressionSettings>
-      Level: Medium
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScreenTransform/31a7f862-50a1-4a00-9235-84765f29104d>
   PrefabRemaps:
     []
@@ -4184,11 +4178,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<AssetImportMetadata/4424e55b-ae16-ed85-0516-07a7547e3079>
   ImportedAssetIds:
     ShaderGraph: !<reference> dd8ac702-2546-43b6-babf-355fa007237a
@@ -7627,11 +7617,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/81735e6e-4177-45a5-92d7-5b1b50dffc7b>
   PrefabRemaps:
     []
@@ -8335,10 +8321,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Size
-    CompressionSettings: !<TextureCompressionSettings>
-      Level: Medium
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<AssetImportMetadata/8ba44582-33e5-4abd-5533-94853b619a58>
   ImportedAssetIds:
     ShaderGraph: !<reference> f53f0c22-9244-4c2b-8765-d586fe55a339
@@ -8622,11 +8605,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/91d808a5-73b1-47af-9b3f-3ec416c5dd69>
   SvgIcon: ""
   SetupScript:
@@ -10863,11 +10842,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Performance
-    CompressionSettings: !<TextureCompressionMipmapSettings>
-      Level: Medium
-      Mipmap: false
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<AssetImportMetadata/b9d23b31-0ea1-2826-2301-807d28d95494>
   ImportedAssetIds:
     Texture: !<reference> 45dc9ac8-181e-48a0-a26d-91dc300a066b
@@ -10883,9 +10858,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: None
-    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/ba02fc5b-2135-44c9-8dc8-23d63e9fe82a>
   SvgIcon: ""
   SetupScript:
@@ -11205,10 +11178,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Size
-    CompressionSettings: !<TextureCompressionSettings>
-      Level: Medium
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<RenderMeshVisual/bf070aec-ab91-4b84-9aec-03657278328d>
   PrefabRemaps:
     []
@@ -11421,9 +11391,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: None
-    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/c2db7a03-1001-45ed-b5c9-997d1ec7c72b>
   PrefabRemaps:
     []
@@ -12704,9 +12672,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: None
-    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/d9006d4b-becc-45b4-b4a0-fd6cb7b56ad4>
   PrefabRemaps:
     []
@@ -12853,10 +12819,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Size
-    CompressionSettings: !<TextureCompressionSettings>
-      Level: Medium
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<AssetImportMetadata/dcf62739-aa2d-da44-073b-4c6040797ab5>
   ImportedAssetIds:
     ShaderGraph: !<reference> bfc7dd0e-b7dd-4618-88bf-710fe54282d8
@@ -13749,10 +13712,7 @@
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
-  CompressionSettings: !<SingleCompressionSettings>
-    CompressorName: Size
-    CompressionSettings: !<TextureCompressionSettings>
-      Level: Medium
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<TypeScriptAssetData/eb5ff2f0-f4a8-422d-ac23-69eb8bc6302e>
   SvgIcon: ""
   SetupScript:

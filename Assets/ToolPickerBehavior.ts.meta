@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/a530abe7-0a47-4970-87b5-b4d7b69863fc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4112b50a-a784-4ac5-a98b-fe3a807850ec
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4112b50a-a784-4ac5-a98b-fe3a807850ec
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 675cdb33-8f08-4c7b-b05c-5b35372dc958
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/675cdb33-8f08-4c7b-b05c-5b35372dc958>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e6597bd2-1b23-4083-b1f3-a0b1579b4c63
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    containerObj: false
+    toolPrefabs: false
+    toolSpawnPoints: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - toolPrefabs: !<reference.ObjectPrefab[]>
+        []
+      toolSpawnPoints: !<reference.SceneObject[]>
+        []
+      containerObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input Asset.ObjectPrefab[] toolPrefabs"
+    - "// @input SceneObject[] toolSpawnPoints"
+    - // @input SceneObject containerObj

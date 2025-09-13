@@ -1,0 +1,218 @@
+- !<ObjectPrefab/cfe128bb-76d4-45ca-81c4-a3b189679361>
+  PackagePath: ""
+  objects:
+    - !<own> 135abf13-baeb-4f47-8440-ee9b08e970c9
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/135abf13-baeb-4f47-8440-ee9b08e970c9>
+  PrefabRemaps:
+    []
+  Name: Stick
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -15.000000, z: -60.000000}
+    Rotation: {x: 0.000000, y: 180.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 27e8a63b-a43c-415d-87e6-a85af864262a
+    - !<own> ca2e5425-38fb-4c86-a201-927d330da384
+    - !<own> c7cd81f0-64e0-4d56-ac1a-38e1d987f2d5
+    - !<own> 8ea0f4d4-8776-41d5-b0ab-704708b08929
+    - !<own> 3ee4558b-c617-4612-a4d9-d58f54b041e2
+    - !<own> 53825418-c696-4acb-80c8-024843ac080a
+    - !<own> 6012e2d5-4b2f-474b-85fd-ba1068813aa4
+- !<BodyComponent/27e8a63b-a43c-415d-87e6-a85af864262a>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Capsule>
+    Axis: Z
+    Length: 30.000000
+    Radius: 1.000000
+  Matter: !<reference> 9cfbf0c8-bf10-4247-aa02-918b05c18f37
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 94eecbaa-9387-4eea-a0ca-0aefdbc11284
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.000000
+  AngularDamping: 0.000000
+- !<ScriptComponent/3ee4558b-c617-4612-a4d9-d58f54b041e2>
+  PrefabRemaps:
+    []
+  Name: InteractableOutlineFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 2590ba37-9ddc-4ba6-a71a-d959b3d208db
+  ScriptInputsDefault:
+    targetOutlineMaterial: true
+    hoveringColor: true
+    activatingColor: true
+    outlineWeight: true
+    meshVisuals: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetOutlineMaterial: !<reference.Material> c73d91bc-6504-4101-bbd4-fdac9334f4af
+      hoveringColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.040000, w: 1.000000}
+      activatingColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      outlineWeight: -0.250000
+      meshVisuals: !<reference.RenderMeshVisual[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/53825418-c696-4acb-80c8-024843ac080a>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: false
+  Shape: !<Mesh>
+    Mesh: !<reference> d415e42c-9ae3-417b-83cf-74f67ad30e2a
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 136fb47c-9df1-4aa9-841b-b3862ba4ca51
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/6012e2d5-4b2f-474b-85fd-ba1068813aa4>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a02b2cbc-d54d-4185-98f3-ff4b55089794
+  Mesh: !<reference> d415e42c-9ae3-417b-83cf-74f67ad30e2a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/8ea0f4d4-8776-41d5-b0ab-704708b08929>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 47357750-6726-4230-ba8a-ff6ec50f9fda
+  ScriptInputsDefault:
+    manipulateRootSceneObject: true
+    enableTranslation: true
+    enableRotation: true
+    showStretchZProperties: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showFilterProperties: true
+    minCutoff: true
+    beta: true
+    dcutoff: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      minimumScaleFactor: !<float> 1.000000
+      maximumScaleFactor: !<float> 1.000000
+      enableTranslation: true
+      enableRotation: true
+      enableScale: false
+      enableStretchZ: false
+      showStretchZProperties: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showFilterProperties: false
+      minCutoff: !<float> 2.000000
+      beta: 0.015000
+      dcutoff: !<float> 1.000000
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/c7cd81f0-64e0-4d56-ac1a-38e1d987f2d5>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 72ff8a3e-d754-40ba-b645-8071acd4064e
+  ScriptInputsDefault:
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+    isSynced: true
+    acceptableSyncInteractionTypes: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 1.000000
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+      isSynced: false
+      acceptableSyncInteractionTypes: !<float> 7.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/ca2e5425-38fb-4c86-a201-927d330da384>
+  PrefabRemaps:
+    []
+  Name: DartBehavior
+  Enabled: true
+  ScriptAsset: !<reference> 3f46f770-3bb8-4572-8c2d-8d7b8ca2b963
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
