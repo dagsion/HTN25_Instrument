@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f8011fc5-9158-4db9-ba5a-74ede5063776: 22e53aa7-6afd-4ce1-b936-86993934ac06/7ea944509a7a4266ffd1d33ea020f9ed/Data/DJ_Main_Diffuse.jpg
+  Assets:
+    - !<FileTexture/f8011fc5-9158-4db9-ba5a-74ede5063776>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7ea944509a7a4266ffd1d33ea020f9ed
+  FileHash: 3e08da0916bca69148659b2c613d24c7
+  NativePackageItems:
+    []

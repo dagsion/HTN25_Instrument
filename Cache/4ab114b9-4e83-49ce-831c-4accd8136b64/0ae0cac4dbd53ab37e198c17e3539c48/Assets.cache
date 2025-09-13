@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b778ad6d-3aa4-43d9-991e-7b445bce511d: 4ab114b9-4e83-49ce-831c-4accd8136b64/0ae0cac4dbd53ab37e198c17e3539c48/Data/SpecsDJ_CuteGame150bpm.mp3
+  Assets:
+    - !<FileAudioTrack/b778ad6d-3aa4-43d9-991e-7b445bce511d>
+      PackagePath: ""
+  SourceHash: 0ae0cac4dbd53ab37e198c17e3539c48
+  FileHash: 82ecc64ce420312b3d31697dd32afa48
+  NativePackageItems:
+    []

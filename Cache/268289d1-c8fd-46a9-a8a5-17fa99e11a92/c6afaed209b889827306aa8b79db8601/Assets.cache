@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9fa2dc2a-a7c0-49f5-96ab-e6cbc2e989fe: 268289d1-c8fd-46a9-a8a5-17fa99e11a92/c6afaed209b889827306aa8b79db8601/Data/Circle_Normal.png
+  Assets:
+    - !<FileTexture/9fa2dc2a-a7c0-49f5-96ab-e6cbc2e989fe>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 32
+        Height: 128
+  SourceHash: c6afaed209b889827306aa8b79db8601
+  FileHash: 9bf51949a37fc7223e363d8f37ffaa5c
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    fb3303dd-9b9a-474f-8759-8b8a7356fd35: 548d1183-f14b-498b-ae2d-4a907ff19707/27f1455539db9a139becee405b32ce06/Data/SpecsDJ_Celebration130bpm.mp3
+  Assets:
+    - !<FileAudioTrack/fb3303dd-9b9a-474f-8759-8b8a7356fd35>
+      PackagePath: ""
+  SourceHash: 27f1455539db9a139becee405b32ce06
+  FileHash: f2e3f75e6658784aaadc0dcfc0b0363e
+  NativePackageItems:
+    []

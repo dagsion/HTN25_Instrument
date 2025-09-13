@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    714340ed-3f9d-46d4-aedf-6c8dd5e58457: eda504f0-f8c5-46c7-890f-4bf838dc4a8e/f79b9401b2196bc862602285baa0724e/Data/Disko_REFL.jpg
+  Assets:
+    - !<FileTexture/714340ed-3f9d-46d4-aedf-6c8dd5e58457>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: f79b9401b2196bc862602285baa0724e
+  FileHash: 27bf3ab5e1e02888ec8ff829c065d9a3
+  NativePackageItems:
+    []

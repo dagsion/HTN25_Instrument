@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    542aeb3c-327c-4a47-a9b7-d7d747b97e93: 56071d2e-58d7-439a-ab52-09461564b3d9/67617e170b1fbc5b8e0f36a0067d5157/Data/note.png
+  Assets:
+    - !<FileTexture/542aeb3c-327c-4a47-a9b7-d7d747b97e93>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 67617e170b1fbc5b8e0f36a0067d5157
+  FileHash: df1fa8e34407d2734fc3fac6c8d8409e
+  NativePackageItems:
+    []

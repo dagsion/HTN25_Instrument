@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    747efb11-5933-489a-a8de-3b9fe5799644: f90a05c3-1b12-4f66-b33a-5330662bd5ce/b60ed794398bc05215ec45701ad5530e/Data/SpecsDJ_Zeo130bpm.mp3
+  Assets:
+    - !<FileAudioTrack/747efb11-5933-489a-a8de-3b9fe5799644>
+      PackagePath: ""
+  SourceHash: b60ed794398bc05215ec45701ad5530e
+  FileHash: 18785efd454931667cebc803bc3b5291
+  NativePackageItems:
+    []

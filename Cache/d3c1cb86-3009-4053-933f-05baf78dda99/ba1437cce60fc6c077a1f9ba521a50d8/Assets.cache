@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1807480e-e4c0-42d2-af1d-046e7a4c3777: d3c1cb86-3009-4053-933f-05baf78dda99/ba1437cce60fc6c077a1f9ba521a50d8/Data/Box_vinyls.jpg
+  Assets:
+    - !<FileTexture/1807480e-e4c0-42d2-af1d-046e7a4c3777>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: ba1437cce60fc6c077a1f9ba521a50d8
+  FileHash: 85a622df75a5b2fa5dd86be213407fcc
+  NativePackageItems:
+    []

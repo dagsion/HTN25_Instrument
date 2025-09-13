@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f7bca012-b49e-4042-b16f-6a1bb834e9f7: 4e251a2f-ead7-4fc8-8242-d8932e147ff9/bfa93e829b1591742e1807b43734422a/Data/Base.png
+  Assets:
+    - !<FileTexture/f7bca012-b49e-4042-b16f-6a1bb834e9f7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1
+        Height: 1
+  SourceHash: bfa93e829b1591742e1807b43734422a
+  FileHash: 53772a1c901facc7dc236f20f44e8877
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    dde321c7-0f3d-4846-a50a-5bf48bfa0777: 18ade0b0-b575-4de1-8850-5943ec321adb/3d9a6b842982f304f57989bcf546ca31/Data/SpecsDJ_GreatDay150bpm.mp3
+  Assets:
+    - !<FileAudioTrack/dde321c7-0f3d-4846-a50a-5bf48bfa0777>
+      PackagePath: ""
+  SourceHash: 3d9a6b842982f304f57989bcf546ca31
+  FileHash: 1ca11729d291eaf9d820f2333731cd5b
+  NativePackageItems:
+    []

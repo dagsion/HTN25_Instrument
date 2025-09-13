@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3ca19790-2ab0-48cb-b92a-c6023494ea22: 7d0ac48d-c255-45cb-adf8-4af18f008278/98da8a6245cc1920e5f2d2bc1cf94649/Data/Circle_Opacity.jpg
+  Assets:
+    - !<FileTexture/3ca19790-2ab0-48cb-b92a-c6023494ea22>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 32
+        Height: 128
+  SourceHash: 98da8a6245cc1920e5f2d2bc1cf94649
+  FileHash: 94b0f9b1ff1e7f0f31e155b178d35b1e
+  NativePackageItems:
+    []

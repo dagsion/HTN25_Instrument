@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b706028e-c4a7-4d9f-b3d7-e6dd879029e2: 1167fe1f-8bf1-472b-90a3-723310412233/4e7d4e14261287578ec0d3c6aca690ea/Data/DJ_Remote_Mat_Disk_base.jpg
+  Assets:
+    - !<FileTexture/b706028e-c4a7-4d9f-b3d7-e6dd879029e2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 4e7d4e14261287578ec0d3c6aca690ea
+  FileHash: b1c16243f78f55845b97b0957f31fcfe
+  NativePackageItems:
+    []

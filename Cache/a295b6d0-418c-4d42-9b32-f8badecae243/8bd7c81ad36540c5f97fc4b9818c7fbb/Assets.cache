@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    d024a46d-4b42-478b-a8f0-6847b825f298: a295b6d0-418c-4d42-9b32-f8badecae243/8bd7c81ad36540c5f97fc4b9818c7fbb/Data/SpecsDJ_OhYeah180bpm.mp3
+  Assets:
+    - !<FileAudioTrack/d024a46d-4b42-478b-a8f0-6847b825f298>
+      PackagePath: ""
+  SourceHash: 8bd7c81ad36540c5f97fc4b9818c7fbb
+  FileHash: c60835a184c507eaf401165c68d82851
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ce3b4c81-5fcc-457b-8f23-723754cf3e36: 36f0b7d9-1c45-5f04-69c4-3a370f5fc9f9/1c712be543a00547a3942d2f1894c19e/Data/ScrollBarSlider.mesh
+  Assets:
+    - !<FileMesh/ce3b4c81-5fcc-457b-8f23-723754cf3e36>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.007875, y: 0.935743, z: 0.000000}
+  SourceHash: 1c712be543a00547a3942d2f1894c19e
+  FileHash: 6228e8d932e2e45caa0f323034a3b13d
+  NativePackageItems:
+    []

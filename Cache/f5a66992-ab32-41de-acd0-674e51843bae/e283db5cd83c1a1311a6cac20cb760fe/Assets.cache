@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e7a80f7e-6129-4160-aafe-db34390dac99: f5a66992-ab32-41de-acd0-674e51843bae/e283db5cd83c1a1311a6cac20cb760fe/Data/Glow_Opacity.jpg
+  Assets:
+    - !<FileTexture/e7a80f7e-6129-4160-aafe-db34390dac99>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1
+        Height: 32
+  SourceHash: e283db5cd83c1a1311a6cac20cb760fe
+  FileHash: a546834d3371b5ef5e23dec02fc32cba
+  NativePackageItems:
+    []

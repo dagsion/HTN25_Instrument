@@ -1,0 +1,624 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "Tweak_N1",
+                	"label":       "Base Color",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"label":       "Diffuse",
+                	"bindingName": "Tweak_N28",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    { 
+                    	"bindingName": "Tweak_N0", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "11",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label":       "UV set",
+                    	"bindingType": "defineSelect",
+                    	"values":      
+                    	[
+                    		
+                    		{
+                    			"value": "NODE_33_DROPLIST_ITEM 0",
+                    			"label": "Mesh UV 0"
+                    		},
+                    		
+                    		{
+                    			"value": "NODE_33_DROPLIST_ITEM 1",
+                    			"label": "Mesh UV 1"
+                    		},
+                    		
+                    		{
+                    			"value": "NODE_33_DROPLIST_ITEM 2",
+                    			"label": "Screen UV"
+                    		},
+                    		
+                    		{
+                    			"value": "NODE_33_DROPLIST_ITEM 3",
+                    			"label": "Transformed UV"
+                    		}
+                    	],
+                    	"sortIndex":   "12",
+                    	"hint":        ""
+                    },
+                {
+                	"_bindingName": "Tweak_N28",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label":       "Opacity",
+                	"bindingName": "Tweak_N9",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    { 
+                    	"bindingName": "Tweak_N8", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "21",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label":       "UV set",
+                    	"bindingType": "defineSelect",
+                    	"values":      
+                    	[
+                    		
+                    		{
+                    			"value": "Tweak_N45 0",
+                    			"label": "Mesh UV 0"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N45 1",
+                    			"label": "Mesh UV 1"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N45 2",
+                    			"label": "Screen UV"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N45 3",
+                    			"label": "Transformed UV"
+                    		}
+                    	],
+                    	"sortIndex":   "22",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N98",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Vertex Color",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "23",
+                    	"hint":        ""
+                    },
+                {
+                	"_bindingName": "Tweak_N9",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label":       "Simple Reflection",
+                	"bindingName": "Tweak_N22",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    { 
+                    	"bindingName": "Tweak_N15", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "31",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N24",
+                    	"label":       "Intensity",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "32",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label":       "Modulation map",
+                    	"bindingName": "Tweak_N34",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "Tweak_N82", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "34",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"label":       "UV set",
+                        	"bindingType": "defineSelect",
+                        	"values":      
+                        	[
+                        		
+                        		{
+                        			"value": "Tweak_N90 0",
+                        			"label": "Mesh UV 0"
+                        		},
+                        		
+                        		{
+                        			"value": "Tweak_N90 1",
+                        			"label": "Mesh UV 1"
+                        		},
+                        		
+                        		{
+                        			"value": "Tweak_N90 2",
+                        			"label": "Screen UV"
+                        		},
+                        		
+                        		{
+                        			"value": "Tweak_N90 3",
+                        			"label": "Transformed UV"
+                        		}
+                        	],
+                        	"sortIndex":   "35",
+                        	"hint":        ""
+                        },
+                    {
+                    	"_bindingName": "Tweak_N34",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"_bindingName": "Tweak_N22",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label":       "Rim",
+                	"bindingName": "Tweak_N20",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    {
+                    	"label":       "Rim color",
+                    	"bindingType": "defineSelect",
+                    	"values":      
+                    	[
+                    		
+                    		{
+                    			"value": "NODE_66_DROPLIST_ITEM 0",
+                    			"label": "None"
+                    		},
+                    		
+                    		{
+                    			"value": "NODE_66_DROPLIST_ITEM 1",
+                    			"label": "Color"
+                    		},
+                    		
+                    		{
+                    			"value": "NODE_66_DROPLIST_ITEM 2",
+                    			"label": "Diffuse"
+                    		}
+                    	],
+                    	"sortIndex":   "40",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N68",
+                    	"label":       "Custom Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "41",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N16",
+                    	"label":       "Intensity",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "42",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N17",
+                    	"label":       "Exponent",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "43",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N104",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Invert",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "44",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label":       "Rim Texture",
+                    	"bindingName": "Tweak_N64",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "Tweak_N18", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "46",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"label":       "UV set",
+                        	"bindingType": "defineSelect",
+                        	"values":      
+                        	[
+                        		
+                        		{
+                        			"value": "Tweak_N43 0",
+                        			"label": "Mesh UV 0"
+                        		},
+                        		
+                        		{
+                        			"value": "Tweak_N43 1",
+                        			"label": "Mesh UV 1"
+                        		},
+                        		
+                        		{
+                        			"value": "Tweak_N43 2",
+                        			"label": "Screen UV"
+                        		},
+                        		
+                        		{
+                        			"value": "Tweak_N43 3",
+                        			"label": "Transformed UV"
+                        		}
+                        	],
+                        	"sortIndex":   "47",
+                        	"hint":        ""
+                        },
+                    {
+                    	"_bindingName": "Tweak_N64",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"_bindingName": "Tweak_N20",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label":       "Emissive",
+                	"bindingName": "Tweak_N51",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    { 
+                    	"bindingName": "Tweak_N47", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "51",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label":       "UV set",
+                    	"bindingType": "defineSelect",
+                    	"values":      
+                    	[
+                    		
+                    		{
+                    			"value": "Tweak_N53 0",
+                    			"label": "Mesh UV 0"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N53 1",
+                    			"label": "Mesh UV 1"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N53 2",
+                    			"label": "Screen UV"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N53 3",
+                    			"label": "Transformed UV"
+                    		}
+                    	],
+                    	"sortIndex":   "52",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N93",
+                    	"label":       "Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "53",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N48",
+                    	"label":       "Intensity",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "54",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"_bindingName": "Tweak_N51",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label":       "Normal Map",
+                	"bindingName": "Tweak_N10",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"widget":      "group_start",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                }
+                ,                    
+                    { 
+                    	"bindingName": "Tweak_N12", 
+                    	"label":       "Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "61",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label":       "UV set",
+                    	"bindingType": "defineSelect",
+                    	"values":      
+                    	[
+                    		
+                    		{
+                    			"value": "Tweak_N94 0",
+                    			"label": "Mesh UV 0"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N94 1",
+                    			"label": "Mesh UV 1"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N94 2",
+                    			"label": "Screen UV"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N94 3",
+                    			"label": "Transformed UV"
+                    		}
+                    	],
+                    	"sortIndex":   "62",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label":       "Detail Normal",
+                    	"bindingName": "Tweak_N63",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"widget":      "group_start",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    }
+                    ,                        
+                        { 
+                        	"bindingName": "Tweak_N58", 
+                        	"label":       "Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "64",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"label":       "UV set",
+                        	"bindingType": "defineSelect",
+                        	"values":      
+                        	[
+                        		
+                        		{
+                        			"value": "Tweak_N96 0",
+                        			"label": "Mesh UV 0"
+                        		},
+                        		
+                        		{
+                        			"value": "Tweak_N96 1",
+                        			"label": "Mesh UV 1"
+                        		},
+                        		
+                        		{
+                        			"value": "Tweak_N96 2",
+                        			"label": "Screen UV"
+                        		},
+                        		
+                        		{
+                        			"value": "Tweak_N96 3",
+                        			"label": "Transformed UV"
+                        		}
+                        	],
+                        	"sortIndex":   "65",
+                        	"hint":        ""
+                        },
+                    {
+                    	"_bindingName": "Tweak_N63",
+                    	"widget": "group_end"
+                    }
+                    ,
+                {
+                	"_bindingName": "Tweak_N10",
+                	"widget": "group_end"
+                }
+                ,
+                
+                {
+                	"label": "Transform UV",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"label":       "UV set",
+                    	"bindingType": "defineSelect",
+                    	"values":      
+                    	[
+                    		
+                    		{
+                    			"value": "Tweak_N76 0",
+                    			"label": "Mesh UV 0"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N76 1",
+                    			"label": "Mesh UV 1"
+                    		},
+                    		
+                    		{
+                    			"value": "Tweak_N76 2",
+                    			"label": "Screen UV"
+                    		}
+                    	],
+                    	"sortIndex":   "72",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N73",
+                    	"label":       "Scale UV",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "73",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N72",
+                    	"label":       "Offset UV",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "73",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N74",
+                    	"label":       "Rotate UV",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         360,
+                    	"step":        "0.5",
+                    	"sortIndex":   "75",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER"
+	]
+}

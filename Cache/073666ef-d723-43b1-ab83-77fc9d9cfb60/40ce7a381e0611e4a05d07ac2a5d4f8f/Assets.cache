@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9e345348-2b9a-4f02-ab84-127f43ff8a95: 073666ef-d723-43b1-ab83-77fc9d9cfb60/40ce7a381e0611e4a05d07ac2a5d4f8f/Data/DJ_Remote_Mat_DiscoBall_normal.jpg
+  Assets:
+    - !<FileTexture/9e345348-2b9a-4f02-ab84-127f43ff8a95>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 40ce7a381e0611e4a05d07ac2a5d4f8f
+  FileHash: 9fa05440ad4f65a2ed5508ee49c205d8
+  NativePackageItems:
+    []

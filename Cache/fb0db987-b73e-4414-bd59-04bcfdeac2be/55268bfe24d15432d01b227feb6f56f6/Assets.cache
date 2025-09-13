@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1dce8ec1-dee2-4816-b2b9-f33d2e659118: fb0db987-b73e-4414-bd59-04bcfdeac2be/55268bfe24d15432d01b227feb6f56f6/Data/Texture_Ruler 1.jpg
+  Assets:
+    - !<FileTexture/1dce8ec1-dee2-4816-b2b9-f33d2e659118>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 168
+        Height: 32
+  SourceHash: 55268bfe24d15432d01b227feb6f56f6
+  FileHash: 3046d0d61d1a96bcce07af552f3699a4
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8f2d6e49-8d27-4534-8d33-589a483ab9ff: 3b390966-e07a-4b0c-a3ac-0fa93ee11bf3/43de1f2125011cbd4f93fcdf633559cd/Data/cover_mask_sm.jpg
+  Assets:
+    - !<FileTexture/8f2d6e49-8d27-4534-8d33-589a483ab9ff>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 43de1f2125011cbd4f93fcdf633559cd
+  FileHash: 9be7f6bc56d78f3766f9d54b48029428
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a605637c-e6fd-45c2-a027-8a45baae170d: b933dca8-01c0-4820-b8a6-3e5144fb7bd6/c6f38260f44581d123abba972d6ea29b/Data/gradientMenuDJlens.png
+  Assets:
+    - !<FileTexture/a605637c-e6fd-45c2-a027-8a45baae170d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2
+        Height: 270
+  SourceHash: c6f38260f44581d123abba972d6ea29b
+  FileHash: 99ac3df4e29df7d7f95aa51c64dab11e
+  NativePackageItems:
+    []

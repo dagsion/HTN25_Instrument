@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a7569e50-994a-4120-8b2e-4e3f33d8885f: e75d79c7-cee6-40e0-9a28-d784de114859/96887bba0f02b38bcc104ff313c6e906/Data/Box_m.jpg
+  Assets:
+    - !<FileTexture/a7569e50-994a-4120-8b2e-4e3f33d8885f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 96887bba0f02b38bcc104ff313c6e906
+  FileHash: 7e6aaf04ba5c1f460ac2edae3a9fc1c1
+  NativePackageItems:
+    []

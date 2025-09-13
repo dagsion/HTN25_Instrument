@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b2aec1a0-a1ff-4ca1-a994-a056ab1e7027: 8ab61e4f-e16a-4c88-95f2-f271b09eeffe/70e83d007cbd97967bc44689f3336ee9/Data/Box_cover_main.jpg
+  Assets:
+    - !<FileTexture/b2aec1a0-a1ff-4ca1-a994-a056ab1e7027>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 70e83d007cbd97967bc44689f3336ee9
+  FileHash: f1b0feb97fb8449795e276961a2359d9
+  NativePackageItems:
+    []

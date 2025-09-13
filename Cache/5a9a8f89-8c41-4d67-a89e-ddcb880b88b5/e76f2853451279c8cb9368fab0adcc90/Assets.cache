@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d9f386c4-0655-410e-9e48-e98de86f0337: 5a9a8f89-8c41-4d67-a89e-ddcb880b88b5/e76f2853451279c8cb9368fab0adcc90/Data/Bulbs_Opacity.png
+  Assets:
+    - !<FileTexture/d9f386c4-0655-410e-9e48-e98de86f0337>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 64
+        Height: 64
+  SourceHash: e76f2853451279c8cb9368fab0adcc90
+  FileHash: a9e154b0c4eb3d40ee4ea4d2414dd414
+  NativePackageItems:
+    []

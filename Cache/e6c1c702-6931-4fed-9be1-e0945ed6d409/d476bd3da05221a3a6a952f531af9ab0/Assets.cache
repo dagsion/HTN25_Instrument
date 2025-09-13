@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9fd225fe-5737-4e34-9d28-5420eba1c0e6: e6c1c702-6931-4fed-9be1-e0945ed6d409/d476bd3da05221a3a6a952f531af9ab0/Data/Disk_Normal.png
+  Assets:
+    - !<FileTexture/9fd225fe-5737-4e34-9d28-5420eba1c0e6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: d476bd3da05221a3a6a952f531af9ab0
+  FileHash: de24259dbda58fa5e9123d94af24e5be
+  NativePackageItems:
+    []

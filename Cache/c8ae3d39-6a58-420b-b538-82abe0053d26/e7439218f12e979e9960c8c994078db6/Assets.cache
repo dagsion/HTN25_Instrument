@@ -1,0 +1,3190 @@
+- !<AssetCache>
+  AssetFiles:
+    af5a1086-56e5-4d8c-8b1d-8add32c11b7c: c8ae3d39-6a58-420b-b538-82abe0053d26/e7439218f12e979e9960c8c994078db6/Data/Meshes/Cover_insert.mesh
+    d52ed00a-efb8-4de4-ace8-06e0d4ac2ae1: c8ae3d39-6a58-420b-b538-82abe0053d26/e7439218f12e979e9960c8c994078db6/Data/.hidden/lambert17.ss_graph
+    23e0240a-3822-47b8-af9e-aed820c66380: c8ae3d39-6a58-420b-b538-82abe0053d26/e7439218f12e979e9960c8c994078db6/Data/.hidden/white.jpg
+    c33c1378-89a0-487d-92f6-8021e75d74f4: c8ae3d39-6a58-420b-b538-82abe0053d26/e7439218f12e979e9960c8c994078db6/Data/Meshes/plane_GLOW.mesh
+    e9d91018-a58c-414d-aac9-ec481bcbf589: c8ae3d39-6a58-420b-b538-82abe0053d26/e7439218f12e979e9960c8c994078db6/Data/Meshes/diskC2.mesh
+  Assets:
+    - !<ObjectPrefab/f13761cb-39a1-4959-b36e-220534336d5e>
+      PackagePath: ""
+      objects:
+        - !<own> 5f8aca3a-411f-4359-9506-46bb6ac9d6da
+      LazyLoading: false
+      RetainAssets: true
+    - !<AnimationAsset/1285dcec-5d0a-497e-b11c-0a6b3c82b238>
+      PackagePath: BaseLayer
+      AnimationPropertiesLayers:
+        {}
+      AnimationCurvePropertiesLayers:
+        Cover_insert:
+          properties:
+            - Position:
+                - X:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.333333
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.366667
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.400000
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.433333
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.466667
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.500000
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.533333
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.566666
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.600000
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.633333
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 6.666667
+                        value:
+                          data: -0.018692
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                - Y:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: 0.798101
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.333333
+                        value:
+                          data: 0.798101
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.366667
+                        value:
+                          data: 0.727152
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.400000
+                        value:
+                          data: 0.537011
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.433333
+                        value:
+                          data: 0.261731
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.466667
+                        value:
+                          data: -0.064632
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.500000
+                        value:
+                          data: -0.408022
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.533333
+                        value:
+                          data: -0.734385
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.566666
+                        value:
+                          data: -1.009665
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.600000
+                        value:
+                          data: -1.199808
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.633333
+                        value:
+                          data: -1.270757
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 6.666667
+                        value:
+                          data: -1.270757
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                - Z:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.333333
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.366667
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.400000
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.433333
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.466667
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.500000
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.533333
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.566666
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.600000
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.633333
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 6.666667
+                        value:
+                          data: -0.638625
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+            - VisibilityAnimation:
+                - X:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: 1.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.632333
+                        value:
+                          data: 1.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 1.633333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+        Disk_anim:
+          properties:
+            - Position:
+                - X:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.333333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.366667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.433333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.466667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.500000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.533333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.566667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.600000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.633333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.666667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.700000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.733334
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.766667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 6.666667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                - Y:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: -0.045953
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.333333
+                        value:
+                          data: -0.045953
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.366667
+                        value:
+                          data: 0.005272
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.433333
+                        value:
+                          data: 0.122714
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.466667
+                        value:
+                          data: 0.173939
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.500000
+                        value:
+                          data: 0.210171
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.533333
+                        value:
+                          data: 0.223914
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.566667
+                        value:
+                          data: 0.211511
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.600000
+                        value:
+                          data: 0.179523
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.633333
+                        value:
+                          data: 0.135784
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.666667
+                        value:
+                          data: 0.088129
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.700000
+                        value:
+                          data: 0.044391
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.733334
+                        value:
+                          data: 0.012403
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.766667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 6.666667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                - Z:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.333333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.366667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.433333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.466667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.500000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.533333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.566667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.600000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.633333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.666667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.700000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.733334
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.766667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 6.666667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+            - VisibilityAnimation:
+                - X:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: 1.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 6.666667
+                        value:
+                          data: 1.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+        Disk_group:
+          properties:
+            - Position:
+                - X:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.033333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.066667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.100000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.133333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.166667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.200000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.233333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.266667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.300000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.333333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.366667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.400000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.433333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.466667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.500000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 6.666667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                - Y:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.033333
+                        value:
+                          data: 0.057402
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.066667
+                        value:
+                          data: 0.218928
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.100000
+                        value:
+                          data: 0.468559
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.133333
+                        value:
+                          data: 0.790277
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.166667
+                        value:
+                          data: 1.168061
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.200000
+                        value:
+                          data: 1.585893
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.233333
+                        value:
+                          data: 2.027754
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.266667
+                        value:
+                          data: 2.477624
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.300000
+                        value:
+                          data: 2.919485
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.333333
+                        value:
+                          data: 3.337317
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.366667
+                        value:
+                          data: 3.715101
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.400000
+                        value:
+                          data: 4.036818
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.433333
+                        value:
+                          data: 4.286449
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.466667
+                        value:
+                          data: 4.447976
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.500000
+                        value:
+                          data: 4.505377
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 6.666667
+                        value:
+                          data: 4.505377
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                - Z:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.033333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.066667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.100000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.133333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.166667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.200000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.233333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.266667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.300000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.333333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.366667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.400000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.433333
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.466667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.500000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 6.666667
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+            - VisibilityAnimation:
+                - X:
+                    keyFrames:
+                      - time: 0.000000
+                        value:
+                          data: 0.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+                      - time: 0.033333
+                        value:
+                          data: 1.000000
+                          leftTangent: Free
+                          rightTangent: Free
+                          weightedMode: None
+                          inControlWeight: {x: 1.000000, y: 1.000000}
+                          outControlWeight: {x: 0.000000, y: 0.000000}
+    - !<FileMesh/af5a1086-56e5-4d8c-8b1d-8add32c11b7c>
+      PackagePath: Meshes/Cover_insert
+      Info: !<MeshInfo>
+        Triangles: 148
+        Vertices: 228
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 9.001765, y: 0.102960, z: 4.403967}
+    - !<Material/494021a8-59fa-406b-9cab-9f3c934ed660>
+      PackagePath: Materials/lambert18
+      PassesInfo:
+        - !<own> b3ae046f-92ea-45ea-94bb-7cb4e3cecf1d
+    - !<ShaderGraphPass/d52ed00a-efb8-4de4-ace8-06e0d4ac2ae1>
+      PackagePath: .hidden/lambert17
+      DefaultDefines:
+        - NODE_13_DROPLIST_ITEM 0
+        - NODE_181_DROPLIST_ITEM 0
+        - NODE_184_DROPLIST_ITEM 0
+        - NODE_221_DROPLIST_ITEM 0
+        - NODE_228_DROPLIST_ITEM 0
+        - NODE_27_DROPLIST_ITEM 0
+        - NODE_315_DROPLIST_ITEM 0
+        - NODE_38_DROPLIST_ITEM 0
+        - NODE_49_DROPLIST_ITEM 0
+        - NODE_69_DROPLIST_ITEM 0
+        - NODE_76_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Vertex Color
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the purpose for which vertex color will be used. Requires vertex color to be supplied by the mesh.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: None
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Base Color
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Emissive
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: AO
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: |-
+              Property: baseColor
+              
+              Specifies the base color (albedo) of the material if the 'Base Textre' is disabled. 
+              Multiplied with the 'Base Texture' otherwise.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: ENABLE_BASE_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_BASE_TEX
+              
+              Most materials use a base texture (albedo), but disabling it means the base texture will be considered white, and 'Base Color' will solely control the color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_BASE_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Opacity Texture
+            mType: Define
+            mName: ENABLE_OPACITY_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_OPACITY_TEX
+              
+              Normally, the Base Texture's alpha is taken as opacity. Enabling this allows you to define a separate greyscale opacity texture. 
+              The 'Opacity Texture' value will be multiplied with the Base Texture's alpha (which is 1 for textures without alpha) to get the final opacity. 
+              'Opacity Texture' is only available if 'Blend Mode' is not 'Disabled'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: opacityTex
+            mWidget: texture_group
+            mHint: "Property: opacityTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_OPACITY_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor
+            mType: Define
+            mName: ENABLE_RECOLOR
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_RECOLOR
+              
+              Recolor replaces colors in the base texture. 
+              This is useful for adding variety to assets, ex: recolor a red shirt with a green logo to a blue shirt with a black logo, or any other color combination. 
+              Where the base texture is red, you will get whatever color you set in Recolor Red, and same thing for the green and blue channels of the base texture. 
+              This also works in combination if the base color is not a pure red, green or blue color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor Red
+            mType: Property
+            mName: recolorRed
+            mWidget: color
+            mHint: "Property: recolorRed"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Recolor Green
+            mType: Property
+            mName: recolorGreen
+            mWidget: color
+            mHint: "Property: recolorGreen"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Recolor Blue
+            mType: Property
+            mName: recolorBlue
+            mWidget: color
+            mHint: "Property: recolorBlue"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_RECOLOR
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Map
+            mType: Define
+            mName: ENABLE_NORMALMAP
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_NORMALMAP
+              
+              Enables the normal map texture and normal mapping. 
+              When this is disabled, the per pixel normal is solely determined by the interpolated vertex normals.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: normalTex
+            mWidget: texture_group
+            mHint: "Property: normalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Detail Normal
+            mType: Define
+            mName: ENABLE_DETAIL_NORMAL
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_DETAIL_NORMAL
+              
+              Detail normal mapping perturbs the base normal map by a detail normal map.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: detailNormalTex
+            mWidget: texture_group
+            mHint: "Property: detailNormalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_DETAIL_NORMAL
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_NORMALMAP
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Emissive
+            mType: Define
+            mName: ENABLE_EMISSIVE
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_EMISSIVE
+              
+              Enables the emissive texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: emissiveTex
+            mWidget: texture_group
+            mHint: "Property: emissiveTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_76_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Color
+            mType: Property
+            mName: emissiveColor
+            mWidget: color
+            mHint: |-
+              Property: emissiveColor
+              
+              Multiplies the existing emissive color. 
+              Requires 'Enable Emissive' and/or 'Vertex Color' should be set to 'Emissive'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: emissiveIntensity
+            mWidget: slider
+            mHint: |-
+              Property: emissiveIntensity
+              
+              Multiplies the existing emissive color. 
+              Requires 'Enable Emissive' and/or 'Vertex Color' should be set to 'Emissive'.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_EMISSIVE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Simple Reflection
+            mType: Define
+            mName: ENABLE_SIMPLE_REFLECTION
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SIMPLE_REFLECTION
+              
+              Replaces the default PBR environment mapping with a simple lookup from a regular texture (no hdr, no roughness, no fresnel, etc.). 
+              It can even be used with unlit materials. The reflection lookup technically assumes a spherical environment map, which is a circular 
+              shaped texture as obtained by photographing a mirror ball. However, as a shortcut, it is sometimes used with simple, flat photos, and 
+              manually bent mesh normals. Note: this spherical mapping is technically different from the 'angular' envmap format that looks similar.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: reflectionTex
+            mWidget: texture_group
+            mHint: "Property: reflectionTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: reflectionIntensity
+            mWidget: slider
+            mHint: "Property: reflectionIntensity"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Modulation Map
+            mType: Define
+            mName: Tweak_N177
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N177
+              
+              This texture modulates the reflection color. It can be RGB or greyscale.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: reflectionModulationTex
+            mWidget: texture_group
+            mHint: "Property: reflectionModulationTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_228_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N177
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SIMPLE_REFLECTION
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rim Highlight
+            mType: Define
+            mName: ENABLE_RIM_HIGHLIGHT
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_RIM_HIGHLIGHT
+              
+              'Rim highlight', aka. 'fake Fresnel effect'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color
+            mType: Property
+            mName: rimColor
+            mWidget: color
+            mHint: |-
+              Property: rimColor
+              
+              Specifies the color of the rim highlight.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: rimIntensity
+            mWidget: slider
+            mHint: |-
+              Property: rimIntensity
+              
+              Multiplied with 'Rim Color'.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Exponent
+            mType: Property
+            mName: rimExponent
+            mWidget: slider
+            mHint: |-
+              Property: rimExponent
+              
+              Controls the tightness of the rim highlight.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Invert
+            mType: Define
+            mName: ENABLE_RIM_INVERT
+            mWidget: checkbox
+            mHint: |-
+              Define: ENABLE_RIM_INVERT
+              
+              Inverts the effect so it's brighter in the middle of the object and darker at the edge.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rim Color Texture
+            mType: Define
+            mName: Tweak_N216
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N216
+              
+              Allows the use of a texture to modulate the rim highlight color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: rimColorTex
+            mWidget: texture_group
+            mHint: "Property: rimColorTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_315_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N216
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_RIM_HIGHLIGHT
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Lighting
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallic
+            mWidget: slider
+            mHint: |-
+              Property: metallic
+              
+              1 means metal, 0 means non-metal (dielectric). Multiplies the metallic channel of the Material Params texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughness
+            mWidget: slider
+            mHint: |-
+              Property: roughness
+              
+              1 means completely rough (diffuse), 0 means perfectly smooth and shiny. 
+              Multiplies the roughness channel of the Material Params texture if enabled. 
+              If your roughness is 1 and your metallic is 0, it's more efficient to disable Specular alltogether.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: materialParamsTex
+            mWidget: texture_group
+            mHint: |-
+              Property: materialParamsTex
+              
+              Material params texture should have: R - metalness, G - roughness, B - ambient occlusion.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_221_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Specular AO
+            mType: Define
+            mName: ENABLE_SPECULAR_AO
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SPECULAR_AO
+              
+              Allow AO to influence indirect specular lighting (reflections).
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: specularAoIntensity
+            mWidget: slider
+            mHint: |-
+              Property: specularAoIntensity
+              
+              Specifies the amount of influence AO has on reflections. 
+              For metals the specular AO at its darkest approaches a saturated/darkened version of the metal color (ex: dark gold for gold). 
+              For non-metals, this is essentially the same as 'Darkeing'.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Darkening
+            mType: Property
+            mName: specularAoDarkening
+            mWidget: slider
+            mHint: |-
+              Property: specularAoDarkening
+              
+              For metals, this shifts the darkest AO color from a saturated version of the metal color towards pure black. 
+              For non-metals it's essentially equivalent to 'Intensity'.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SPECULAR_AO
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformed UV 2
+            mType: Define
+            mName: ENABLE_UV2
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_UV2
+              
+              Allows tiling and animation of texture coordinates.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen UV
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Scale
+            mType: Property
+            mName: uv2Scale
+            mWidget: spinbox
+            mHint: |-
+              Property: uv2Scale
+              
+              Allows tiling of textures.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: uv2Offset
+            mWidget: spinbox
+            mHint: |-
+              Property: uv2Offset
+              
+              Allows shifting of textures, or controls the speed of scrolling if animation is enabled. 
+              If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Animation
+            mType: Define
+            mName: uv2EnableAnimation
+            mWidget: checkbox
+            mHint: |-
+              Define: uv2EnableAnimation
+              
+              If this is enabled, the UV's will scroll. In this case the Offset specifies the speed of scrolling. 
+              The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_UV2
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformed UV 3
+            mType: Define
+            mName: ENABLE_UV3
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_UV3
+              
+              Allows tiling and animation of texture coordinates.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen UV
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Scale
+            mType: Property
+            mName: uv3Scale
+            mWidget: spinbox
+            mHint: |-
+              Property: uv3Scale
+              
+              Allows tiling of textures.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: uv3Offset
+            mWidget: spinbox
+            mHint: |-
+              Property: uv3Offset
+              
+              Allows shifting of textures, or controls the speed of scrolling if animation is enabled. 
+              If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Animation
+            mType: Define
+            mName: uv3EnableAnimation
+            mWidget: checkbox
+            mHint: |-
+              Define: uv3EnableAnimation
+              
+              If this is enabled, the UV's will scroll. In this case the Offset specifies the speed of scrolling. 
+              The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_UV3
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: c8ae3d39-6a58-420b-b538-82abe0053d26/e7439218f12e979e9960c8c994078db6/Data/.hidden/6533ae0/lambert18.glsl
+      Defines:
+        []
+      Properties:
+        {}
+    - !<FileTexture/23e0240a-3822-47b8-af9e-aed820c66380>
+      PackagePath: .hidden/white
+      FileInfo: !<FileTextureInfo>
+        Width: 10
+        Height: 10
+    - !<FileMesh/c33c1378-89a0-487d-92f6-8021e75d74f4>
+      PackagePath: Meshes/plane_GLOW
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.000000, y: 0.000000, z: 1.000000}
+    - !<Material/e4a38ebf-1dad-45c1-b39f-e2c0e262a99d>
+      PackagePath: Materials/lambert19
+      PassesInfo:
+        - !<own> 287fae52-6c39-43f2-9a10-38af1f43079e
+    - !<FileMesh/e9d91018-a58c-414d-aac9-ec481bcbf589>
+      PackagePath: Meshes/diskC2
+      Info: !<MeshInfo>
+        Triangles: 576
+        Vertices: 584
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 7.018486, y: 0.054618, z: 7.018485}
+    - !<Material/93205670-264a-467b-bc11-871a7cc060be>
+      PackagePath: Materials/lambert17
+      PassesInfo:
+        - !<own> 634160a1-57a3-4453-b43c-8a1021b33b83
+  SourceHash: e7439218f12e979e9960c8c994078db6
+  FileHash: fc8f1b594f61464b6778cf074a6d2180
+  NativePackageItems:
+    []
+- !<SceneObject/1d353cda-774c-4a5b-9c60-a1dfcab6ebaa>
+  PrefabRemaps:
+    []
+  Name: Disk_anim
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.045953, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 46f6623d-34f4-40db-a0f0-fcc0e284a1e6
+    - !<own> 93527a29-ee6e-49de-8f6e-bf1e961b56df
+  Components:
+    []
+- !<AnimationPlayer/2263c392-88a2-4ae7-a9f4-687b0601d478>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 1285dcec-5d0a-497e-b11c-0a6b3c82b238
+      Name: BaseLayer
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 200.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<PassInfo/287fae52-6c39-43f2-9a10-38af1f43079e>
+  CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_GSplatRotation_N004:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_GSplatScale_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_DIFFUSE_LIGHTING
+    - ENABLE_DIRECT_LIGHTS
+    - ENABLE_ENVIRONMENT_MAP
+    - ENABLE_LIGHTING
+    - ENABLE_SPECULAR_LIGHTING
+    - ENABLE_TONE_MAPPING
+    - ENABLE_VERTEX_COLOR_NONE
+    - baseTexUV 0
+    - emissiveTexUV 0
+    - materialParamsTexUV 0
+    - normalTexUV 0
+    - opacityTexUV 0
+    - rimColorTexUV 0
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_181_DROPLIST_ITEM 0
+    - NODE_184_DROPLIST_ITEM 0
+    - NODE_221_DROPLIST_ITEM 0
+    - NODE_228_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_315_DROPLIST_ITEM 0
+    - NODE_38_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - NODE_76_DROPLIST_ITEM 0
+  BlendMode: Disabled
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.800000, y: 0.800000, z: 0.800000, w: 1.000000}
+    materialParamsTex:
+      typeIdx: 9
+      value:
+        id: 23e0240a-3822-47b8-af9e-aed820c66380
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    metallic:
+      typeIdx: 1
+      value: 0.000000
+    roughness:
+      typeIdx: 1
+      value: 1.000000
+    uv2Offset:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv2Scale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv3Offset:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv3Scale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+  Pass: !<reference> d52ed00a-efb8-4de4-ace8-06e0d4ac2ae1
+- !<SceneObject/291afa83-a964-4b21-b041-709687b3e316>
+  PrefabRemaps:
+    []
+  Name: Cover_insert
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.018692, y: 0.798101, z: -0.638625}
+    Rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.797113, y: 0.722092, z: 0.722092}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4b7b761a-80bc-43e6-83ea-28e515b9b7b6
+- !<SceneObject/46f6623d-34f4-40db-a0f0-fcc0e284a1e6>
+  PrefabRemaps:
+    []
+  Name: plane_GLOW
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: -0.000000, z: -1.354545}
+    Scale: {x: 8.365412, y: 8.365412, z: 8.365412}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c2c30578-1eb2-4b22-837b-913e79b3eae9
+- !<RenderMeshVisual/4b7b761a-80bc-43e6-83ea-28e515b9b7b6>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 494021a8-59fa-406b-9cab-9f3c934ed660
+  Mesh: !<reference> af5a1086-56e5-4d8c-8b1d-8add32c11b7c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5f8aca3a-411f-4359-9506-46bb6ac9d6da>
+  PrefabRemaps:
+    []
+  Name: Box_vinyl_anim
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 852ea270-d8f2-4f94-92d7-7e77d5be9c21
+  Components:
+    - !<own> 2263c392-88a2-4ae7-a9f4-687b0601d478
+- !<PassInfo/634160a1-57a3-4453-b43c-8a1021b33b83>
+  CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_GSplatRotation_N004:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_GSplatScale_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_DIFFUSE_LIGHTING
+    - ENABLE_DIRECT_LIGHTS
+    - ENABLE_ENVIRONMENT_MAP
+    - ENABLE_LIGHTING
+    - ENABLE_SPECULAR_LIGHTING
+    - ENABLE_TONE_MAPPING
+    - ENABLE_VERTEX_COLOR_NONE
+    - baseTexUV 0
+    - emissiveTexUV 0
+    - materialParamsTexUV 0
+    - normalTexUV 0
+    - opacityTexUV 0
+    - rimColorTexUV 0
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_181_DROPLIST_ITEM 0
+    - NODE_184_DROPLIST_ITEM 0
+    - NODE_221_DROPLIST_ITEM 0
+    - NODE_228_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_315_DROPLIST_ITEM 0
+    - NODE_38_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - NODE_76_DROPLIST_ITEM 0
+  BlendMode: Disabled
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.800000, y: 0.800000, z: 0.800000, w: 1.000000}
+    materialParamsTex:
+      typeIdx: 9
+      value:
+        id: 23e0240a-3822-47b8-af9e-aed820c66380
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    metallic:
+      typeIdx: 1
+      value: 0.000000
+    roughness:
+      typeIdx: 1
+      value: 1.000000
+    uv2Offset:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv2Scale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv3Offset:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv3Scale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+  Pass: !<reference> d52ed00a-efb8-4de4-ace8-06e0d4ac2ae1
+- !<SceneObject/852ea270-d8f2-4f94-92d7-7e77d5be9c21>
+  PrefabRemaps:
+    []
+  Name: Disk_position
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.036050, y: 3.603002, z: 2.057821}
+    Rotation: {x: -24.600000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> aef6497b-e60c-46e0-adb5-b1a2da08ce54
+  Components:
+    []
+- !<SceneObject/93527a29-ee6e-49de-8f6e-bf1e961b56df>
+  PrefabRemaps:
+    []
+  Name: diskC2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.003882, y: -0.018104, z: 0.003602}
+    Rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 0.508026, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d6ae55af-8dac-4fbc-aa82-2936467f99cc
+- !<SceneObject/aef6497b-e60c-46e0-adb5-b1a2da08ce54>
+  PrefabRemaps:
+    []
+  Name: Disk_group
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 291afa83-a964-4b21-b041-709687b3e316
+    - !<own> 1d353cda-774c-4a5b-9c60-a1dfcab6ebaa
+  Components:
+    []
+- !<PassInfo/b3ae046f-92ea-45ea-94bb-7cb4e3cecf1d>
+  CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_GSplatRotation_N004:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_GSplatScale_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_DIFFUSE_LIGHTING
+    - ENABLE_DIRECT_LIGHTS
+    - ENABLE_ENVIRONMENT_MAP
+    - ENABLE_LIGHTING
+    - ENABLE_SPECULAR_LIGHTING
+    - ENABLE_TONE_MAPPING
+    - ENABLE_VERTEX_COLOR_NONE
+    - baseTexUV 0
+    - emissiveTexUV 0
+    - materialParamsTexUV 0
+    - normalTexUV 0
+    - opacityTexUV 0
+    - rimColorTexUV 0
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_181_DROPLIST_ITEM 0
+    - NODE_184_DROPLIST_ITEM 0
+    - NODE_221_DROPLIST_ITEM 0
+    - NODE_228_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_315_DROPLIST_ITEM 0
+    - NODE_38_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - NODE_76_DROPLIST_ITEM 0
+  BlendMode: Disabled
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.800000, y: 0.800000, z: 0.800000, w: 1.000000}
+    materialParamsTex:
+      typeIdx: 9
+      value:
+        id: 23e0240a-3822-47b8-af9e-aed820c66380
+        sampler:
+          filteringMode: Bilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    metallic:
+      typeIdx: 1
+      value: 0.000000
+    roughness:
+      typeIdx: 1
+      value: 1.000000
+    uv2Offset:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv2Scale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv3Offset:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    uv3Scale:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+  Pass: !<reference> d52ed00a-efb8-4de4-ace8-06e0d4ac2ae1
+- !<RenderMeshVisual/c2c30578-1eb2-4b22-837b-913e79b3eae9>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e4a38ebf-1dad-45c1-b39f-e2c0e262a99d
+  Mesh: !<reference> c33c1378-89a0-487d-92f6-8021e75d74f4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/d6ae55af-8dac-4fbc-aa82-2936467f99cc>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 93205670-264a-467b-bc11-871a7cc060be
+  Mesh: !<reference> e9d91018-a58c-414d-aac9-ec481bcbf589
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

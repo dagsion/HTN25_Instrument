@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d590a97d-866e-4c60-9095-a38b0a5e2543: 53b56058-eb7d-4e54-a383-eb4eb6589904/40af5025ed0e793e34442dd3e9c467c5/Data/Refl1.jpg
+  Assets:
+    - !<FileTexture/d590a97d-866e-4c60-9095-a38b0a5e2543>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 40af5025ed0e793e34442dd3e9c467c5
+  FileHash: 561d7da1f1acf1e07ab9e6fb26d89764
+  NativePackageItems:
+    []

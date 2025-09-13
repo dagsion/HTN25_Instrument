@@ -1,0 +1,279 @@
+- !<AssetCache>
+  AssetFiles:
+    0641f423-c927-4051-b30f-664e994d5a1c: f29f387f-19d2-4e74-8385-be2b09297e11/2513a3e4eb859296189e50802b05a7e1/Data/Material Cover.ss_graph
+  Assets:
+    - !<ShaderGraphPass/0641f423-c927-4051-b30f-664e994d5a1c>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_AO_N000:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Column3_N258:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N000:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Import_N013:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N014:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N241:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N242:
+          typeIdx: 1
+          value: 0.000000
+        Port_Import_N259:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_Input1_N008:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N011:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N232:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N236:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N238:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Input1_N268:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: -1.000000}
+        Port_LODValue_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N005:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N245:
+          typeIdx: 1
+          value: 0.000000
+        Port_Metallic_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N000:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Opacity_N000:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N007:
+          typeIdx: 1
+          value: 180.000000
+        Port_RangeMaxB_N007:
+          typeIdx: 1
+          value: 0.500000
+        Port_RangeMinA_N007:
+          typeIdx: 1
+          value: -180.000000
+        Port_RangeMinB_N007:
+          typeIdx: 1
+          value: -0.500000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RotationAngle_N258:
+          typeIdx: 1
+          value: 0.000000
+        Port_RotationAxis_N258:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RotationXYZ_N258:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Roughness_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_SpecularAO_N000:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_TimeB_N023:
+          typeIdx: 1
+          value: 0.000000
+        Port_TimeBias_N023:
+          typeIdx: 1
+          value: 1.000000
+        Port_TimeTransition_N023:
+          typeIdx: 1
+          value: 10.000000
+        Port_UVCoord_N001:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_UVCoord_N005:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value3_N243:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N012:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N243:
+          typeIdx: 1
+          value: 0.000000
+        Port_ValueA_N023:
+          typeIdx: 1
+          value: 0.000000
+        Port_ValueB_N023:
+          typeIdx: 1
+          value: 172.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Color
+            mType: Property
+            mName: Tweak_N20
+            mWidget: color
+            mHint: "Property: Tweak_N20"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Diff Map
+            mType: Property
+            mName: Tweak_N1
+            mWidget: texture_group
+            mHint: "Property: Tweak_N1"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Float
+            mType: Property
+            mName: Tweak_N21
+            mWidget: slider
+            mHint: "Property: Tweak_N21"
+            mMin: 0.000000
+            mMax: 200.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Mask Map
+            mType: Property
+            mName: Tweak_N5
+            mWidget: texture_group
+            mHint: "Property: Tweak_N5"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Simple reflection intensity
+            mType: Property
+            mName: Tweak_N25
+            mWidget: slider
+            mHint: "Property: Tweak_N25"
+            mMin: 0.000000
+            mMax: 2.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: "Simple reflection "
+            mType: Property
+            mName: Tweak_N24
+            mWidget: texture_group
+            mHint: "Property: Tweak_N24"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: f29f387f-19d2-4e74-8385-be2b09297e11/2513a3e4eb859296189e50802b05a7e1/Data/6533ae0/Material Cover.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 2513a3e4eb859296189e50802b05a7e1
+  FileHash: c8e597bc56e7c47ca333d7724f2e8218
+  NativePackageItems:
+    []
