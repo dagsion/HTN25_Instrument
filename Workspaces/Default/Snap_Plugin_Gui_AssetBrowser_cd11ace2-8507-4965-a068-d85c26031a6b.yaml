@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 1529
+    size: 1578
     values:
       - Audio
       - Audio/bass_drum_hit.wav
@@ -19,6 +19,57 @@ CollapsedEntities:
       - DJRemote/3D Resources/Textures
       - DrumCollider.ts
       - Echopark.hdr
+      - Grab Object With Hand.lspkg
+      - Grab Object With Hand.lspkg/Fonts
+      - Grab Object With Hand.lspkg/Fonts/Righteous-Regular.ttf
+      - Grab Object With Hand.lspkg/Grab Object with Hand__PUT_UNDER_MAIN_CAM.prefab
+      - Grab Object With Hand.lspkg/Hand Tracking Assets
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Left Hand Tracking Asset.handTracking3D
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Materials
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Materials/Bones
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Materials/Bones/Bone.mat
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Materials/Bones/blue.mat
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Materials/Bones/green.mat
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Materials/Bones/orange.mat
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Materials/Bones/pink.mat
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Materials/Bones/red.mat
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Materials/Bones/yellow.mat
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Materials/Indicator Line.mat
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Right Hand Tracking Asset.handTracking3D
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Scripts
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Scripts/GlobalTrackingHelper.js
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Scripts/HandTrackingController.js
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Scripts/Helpers
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Scripts/Helpers/GetJointDistance.js
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Scripts/Helpers/GetJointDistanceManager.js
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Scripts/Helpers/SetFollowHandHelper.js
+      - "Grab Object With Hand.lspkg/Hand Tracking Assets/Scripts/Helpers/SingleGestureTrigger[EDIT_ME].js"
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Shaders
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Shaders/Bone.ss_graph
+      - Grab Object With Hand.lspkg/Hand Tracking Assets/Shaders/Indicator Line.ss_graph
+      - Grab Object With Hand.lspkg/Materials
+      - Grab Object With Hand.lspkg/Materials/Green.mat
+      - Grab Object With Hand.lspkg/Materials/Halo.mat
+      - Grab Object With Hand.lspkg/Models
+      - Grab Object With Hand.lspkg/Models/Plane.mesh
+      - Grab Object With Hand.lspkg/Models/Sphere.mesh
+      - Grab Object With Hand.lspkg/Models/pole
+      - Grab Object With Hand.lspkg/Models/pole/Meshes
+      - Grab Object With Hand.lspkg/Models/pole/Meshes/Connector.mesh
+      - Grab Object With Hand.lspkg/Scripts
+      - Grab Object With Hand.lspkg/Scripts/Behavior.js
+      - Grab Object With Hand.lspkg/Scripts/Tween
+      - Grab Object With Hand.lspkg/Scripts/Tween/Tween.js
+      - Grab Object With Hand.lspkg/Scripts/Tween/TweenManager.js
+      - Grab Object With Hand.lspkg/Scripts/Tween/TweenTypes
+      - Grab Object With Hand.lspkg/Scripts/Tween/TweenTypes/TweenTransform.js
+      - Grab Object With Hand.lspkg/Shaders
+      - Grab Object With Hand.lspkg/Shaders/Color.ss_graph
+      - Grab Object With Hand.lspkg/Shaders/Halo.ss_graph
+      - Grab Object With Hand.lspkg/Textures
+      - Grab Object With Hand.lspkg/Textures/Base.png
+      - Grab Object With Hand.lspkg/Textures/white.png
+      - Grab Object With Hand.lspkg/package.native
       - ImageMaterial.mat
       - Instruments Pack.lspkg/BitmojiInstruments__PLACE_IN_SCENE.prefab
       - Instruments Pack.lspkg/Materials/baton_conductor.mat
@@ -1529,7 +1580,5 @@ CollapsedEntities:
       - model/drumset.obj/Meshes/sphere55
       - model/drumset.obj/Meshes/sphere63
       - model/drumset.obj/drumset
-      - right 2.prefab
-      - right.prefab
       - simple_pbr.ss_graph
   options: 4

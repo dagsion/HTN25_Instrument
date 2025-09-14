@@ -46,13 +46,14 @@
   Enabled: true
   ScriptAsset: !<reference> ff0b78fe-14d8-4308-b84f-14948d5f750c
   ScriptInputsDefault:
-    toolPrefabs: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
       toolPrefabs: !<reference.ObjectPrefab[]>
-        []
+        - !<reference> cfe128bb-76d4-45ca-81c4-a3b189679361
+        - !<reference> cfe128bb-76d4-45ca-81c4-a3b189679361
       toolSpawnPoints: !<reference.SceneObject[]>
         - !<reference> 19f45c8c-8ee9-4692-a318-d70fa4419b81
         - !<reference> 8bcd1d6b-f4b1-4441-a4df-94df1b7be181
@@ -75,7 +76,6 @@
     - !<own> d40123bd-c58d-47bf-8328-e31c09f1e6a4
   Components:
     - !<own> 5d4a0ec6-b7f4-44a8-99c4-5ea39a7063df
-    - !<own> ae96c29b-9ce3-47b1-a388-f2f8ccaf5d49
 - !<RenderMeshVisual/792f6276-deb4-4234-86c9-7111995fa9fa>
   PrefabRemaps:
     []
@@ -111,22 +111,6 @@
     []
   Components:
     - !<own> 792f6276-deb4-4234-86c9-7111995fa9fa
-- !<ScriptComponent/ae96c29b-9ce3-47b1-a388-f2f8ccaf5d49>
-  PrefabRemaps:
-    []
-  Name: Untitled TypeScript
-  Enabled: true
-  ScriptAsset: !<reference> 69696471-bb3e-4008-90a7-7f7dfe72516b
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      {}
-  ScriptTypes:
-    "":
-      {}
 - !<ScriptComponent/b917f66a-32be-4c97-abb7-16b6a36901d5>
   PrefabRemaps:
     []

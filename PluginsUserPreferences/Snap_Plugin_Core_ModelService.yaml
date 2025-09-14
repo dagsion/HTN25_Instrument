@@ -3,6 +3,7 @@ ExternalSources:
   value:
     - 0353ce98-6133-4849-b0f3-0e011f300f2f: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/Utils/ScreenLogger.ts
     - 1551de91-169c-4661-8896-833f7566fbb7: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/Utils/AnimateTextOpacity.ts
+    - 155f9f2a-9795-4b28-b635-5220a79b8bfe: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_etUUpC/Grab Object With Hand.lspkg
     - 28ae859f-eacb-4a68-9094-51bed7449913: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/ThrowBehavior.ts
     - 50da8b8c-3bc5-4502-9b15-a72ee55fd1a0: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/Utils/AnimateOpacity.ts
     - 50eb4ba0-568b-4764-bed8-5352309d1c60: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/DartBehavior.ts

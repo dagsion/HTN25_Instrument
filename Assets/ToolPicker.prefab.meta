@@ -14,22 +14,6 @@
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptComponent/0bb8344d-b149-4f74-adc1-04c85d5ceedf>
-  PrefabRemaps:
-    []
-  Name: Untitled TypeScript
-  Enabled: true
-  ScriptAsset: !<reference> 69696471-bb3e-4008-90a7-7f7dfe72516b
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      {}
-  ScriptTypes:
-    "":
-      {}
 - !<ObjectPrefabAssetData/3373b5e8-401a-4114-8ad3-5c923918d145>
   SourceRemaps:
     - 19f45c8c-8ee9-4692-a318-d70fa4419b81: bc79b6df-ccf2-4e03-9095-b58488db5009
@@ -39,7 +23,6 @@
     - 73f222d7-785f-4332-855b-70f8d42df244: cb9e6b35-9ea2-49cf-bb5a-b5523b626881
     - 792f6276-deb4-4234-86c9-7111995fa9fa: 768b155d-3d80-4bf3-8efe-cf163da04e3c
     - 8bcd1d6b-f4b1-4441-a4df-94df1b7be181: 34a338e4-9543-409b-85aa-66e8c0f5e407
-    - ae96c29b-9ce3-47b1-a388-f2f8ccaf5d49: 0bb8344d-b149-4f74-adc1-04c85d5ceedf
     - b917f66a-32be-4c97-abb7-16b6a36901d5: 61227b7e-4ce7-4981-8fec-2cb591f82efb
     - d40123bd-c58d-47bf-8328-e31c09f1e6a4: 4b7a21bb-1717-45fa-96db-f14470123bfd
   SourceState: !<own> de9fbe53-67e9-43b1-85b0-8e3e08f87393
@@ -185,13 +168,14 @@
   Enabled: true
   ScriptAsset: !<reference> ff0b78fe-14d8-4308-b84f-14948d5f750c
   ScriptInputsDefault:
-    toolPrefabs: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
       toolPrefabs: !<reference.ObjectPrefab[]>
-        []
+        - !<reference> cfe128bb-76d4-45ca-81c4-a3b189679361
+        - !<reference> cfe128bb-76d4-45ca-81c4-a3b189679361
       toolSpawnPoints: !<reference.SceneObject[]>
         - !<reference> bc79b6df-ccf2-4e03-9095-b58488db5009
         - !<reference> 34a338e4-9543-409b-85aa-66e8c0f5e407
@@ -229,7 +213,6 @@
     - !<own> 4b7a21bb-1717-45fa-96db-f14470123bfd
   Components:
     - !<own> a629d0c7-0103-4edb-8e26-f3adebedd61a
-    - !<own> 0bb8344d-b149-4f74-adc1-04c85d5ceedf
 - !<ObjectPrefab/de9fbe53-67e9-43b1-85b0-8e3e08f87393>
   PackagePath: ""
   objects:

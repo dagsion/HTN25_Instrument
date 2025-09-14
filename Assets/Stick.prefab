@@ -8,7 +8,7 @@
   PrefabRemaps:
     []
   Name: Stick
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: -15.000000, z: -60.000000}
@@ -25,6 +25,7 @@
     - !<own> 3ee4558b-c617-4612-a4d9-d58f54b041e2
     - !<own> 53825418-c696-4acb-80c8-024843ac080a
     - !<own> 6012e2d5-4b2f-474b-85fd-ba1068813aa4
+    - !<own> a81a0d99-862b-4199-83ec-cb007d47b48c
 - !<BodyComponent/27e8a63b-a43c-415d-87e6-a85af864262a>
   PrefabRemaps:
     []
@@ -162,6 +163,23 @@
       _enableZTranslation: true
       showRotationProperties: false
       _rotationAxis: All
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/a81a0d99-862b-4199-83ec-cb007d47b48c>
+  PrefabRemaps:
+    []
+  Name: Grabbable
+  Enabled: true
+  ScriptAsset: !<reference> 64087653-79d3-4558-b642-7d4c33f1c6f3
+  ScriptInputsDefault:
+    handColliderName: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      collider: !<reference.ColliderComponent> 27e8a63b-a43c-415d-87e6-a85af864262a
+      handColliderName: ColliderTargetProvider
   ScriptTypes:
     "":
       {}

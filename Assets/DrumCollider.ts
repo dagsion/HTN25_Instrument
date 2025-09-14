@@ -1,9 +1,9 @@
 
 @component
 export class NewScript extends BaseScriptComponent {
-    @input
-    audio: AudioComponent
 
+    @input
+    audio: AudioComponent  
     
     onAwake() {
         this.audio.playbackMode = Audio.PlaybackMode.LowLatency
@@ -14,6 +14,10 @@ export class NewScript extends BaseScriptComponent {
     
     
    onCollisionEnter(e) {
-        this.audio.play(3)
+        let stick = e.collision.collider.getSceneObject()
+        let physicsBody = stick.getComponent("Physics.BodyComponent")
+        print(physicsBody.velocity.y)
+        if (physicsBody.velocity.y < -5)
+            this.audio.play(3)
     }
 }

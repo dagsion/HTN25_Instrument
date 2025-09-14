@@ -53,11 +53,28 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/19f43ba5-c5ee-49f6-9584-5be5d9b3a361>
+  PrefabRemaps:
+    []
+  Name: Grabbable
+  Enabled: true
+  ScriptAsset: !<reference> 64087653-79d3-4558-b642-7d4c33f1c6f3
+  ScriptInputsDefault:
+    handColliderName: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      collider: !<reference.ColliderComponent> 8303d9ca-2db2-40f9-86a1-7ef2039a0c8e
+      handColliderName: ColliderTargetProvider
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/70c8b49f-0999-4d24-b85a-e84a57041019>
   PrefabRemaps:
     []
   Name: Stick
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: -15.000000, z: -60.000000}
@@ -74,6 +91,7 @@
     - !<own> ba58422d-0041-4ba0-b843-71c73aec1609
     - !<own> 02ddfc21-6af8-489a-aa68-679b0c104b74
     - !<own> 0d480fca-9517-48be-84b8-d20664e82ca5
+    - !<own> 19f43ba5-c5ee-49f6-9584-5be5d9b3a361
 - !<BodyComponent/8303d9ca-2db2-40f9-86a1-7ef2039a0c8e>
   PrefabRemaps:
     []
@@ -240,6 +258,7 @@
     - 53825418-c696-4acb-80c8-024843ac080a: 02ddfc21-6af8-489a-aa68-679b0c104b74
     - 6012e2d5-4b2f-474b-85fd-ba1068813aa4: 0d480fca-9517-48be-84b8-d20664e82ca5
     - 8ea0f4d4-8776-41d5-b0ab-704708b08929: a6666ddb-e6f8-4a20-9be5-393161c0e12f
+    - a81a0d99-862b-4199-83ec-cb007d47b48c: 19f43ba5-c5ee-49f6-9584-5be5d9b3a361
     - c7cd81f0-64e0-4d56-ac1a-38e1d987f2d5: ca2d68bc-a87d-4f60-bcbf-3a0fd7913634
     - ca2e5425-38fb-4c86-a201-927d330da384: c4633002-9112-4d3e-ab05-67cce342ec8f
     - cfe128bb-76d4-45ca-81c4-a3b189679361: b9e98483-a8f2-4145-abce-6713f92b78e7

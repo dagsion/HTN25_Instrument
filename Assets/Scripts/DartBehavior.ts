@@ -72,19 +72,10 @@ export class DartBehavior extends BaseScriptComponent {
     }
 
     onTriggerStart (e:InteractorEvent) {
-        this.physicsBody.mass = this.OBJECT_MASS
         let inputType = e.interactor.inputType
         this.hand = this.handInputData.getHand(inputType == InteractorInputType.LeftHand ? 'left' : 'right');
 
-        let startPoint = this.hand.indexKnuckle.position.add(this.hand.thumbKnuckle.position).uniformScale(0.5)
-        let nudgeLeftDir = this.hand.middleKnuckle.position.sub(this.hand.pinkyKnuckle.position)
-        startPoint = startPoint.add(nudgeLeftDir.normalize().uniformScale(5))
-        let nudgeUpDir = this.hand.indexKnuckle.position.sub(this.hand.wrist.position)
-        startPoint = startPoint.add(nudgeUpDir.normalize().uniformScale(3))
-
-        let endPoint = this.hand.indexTip.position.add(this.hand.thumbTip.position).uniformScale(0.5)
-        let direction = startPoint.sub(endPoint)
-
+        this.physicsBody.mass = this.OBJECT_MASS
         this.isHolding = true
         this.prevHandVelocity = vec3.zero()
         this.accumulatedForce = vec3.zero()
@@ -92,100 +83,13 @@ export class DartBehavior extends BaseScriptComponent {
         if (global.deviceInfoSystem.isDesktop()) {
             return
         }
-
-        this.t.setWorldPosition(endPoint)
-        this.t.setWorldRotation(quat.lookAt(direction, vec3.up()))
-
     }
 
     onTriggerEnd () {
-        this.physicsBody.intangible = false
-        this.physicsBody.dynamic = true
-
-        let baseVelocity = this.getHandVelocity()
-        baseVelocity = baseVelocity.uniformScale(this.HAND_BASE_VELOCITY_MULTIPLIER)
-        let finalVelocity = baseVelocity.add(this.accumulatedForce)
-        this.physicsBody.velocity = finalVelocity
-
-        this.isHolding = false
-
-        this.isFlying = true
-        this.startedFlyingAt = getTime()
-
-        this.prevHandVelocity = vec3.zero()
-        this.accumulatedForce = vec3.zero()
+        return
     }
 
     onCollisionEnter(e) {
-
-        var collision = e.collision;
-        let isDartBoardHit = false
-
-        let closestHit = null;
-        let wCamera = WorldCameraFinderProvider.getInstance().getWorldPosition()
-        let hitObject:SceneObject = null
-    
-        e.collision.contacts.forEach(contact => {
-            this.objectHit = collision.collider.getSceneObject()
-            this.objectHitT = this.objectHit.getTransform()
-
-            if (collision.collider.getSceneObject().name == "DartBoard") {
-                isDartBoardHit = true
-                this.dartBoardT = this.objectHitT
-            }
-
-            if (closestHit == null) { 
-                hitObject = collision.collider.getSceneObject()
-                closestHit = contact.position 
-            }
-            else {
-                if (contact.position.distance(wCamera) < closestHit.distance(wCamera)) {
-                    closestHit = contact.position
-                    hitObject = collision.collider.getSceneObject()
-                }
-            }
-
-            this.isFlying = false
-        })
-
-        if (isDartBoardHit) {
-
-            let touchPoint = this.t.getWorldPosition()
-            let touchRotation = this.t.getWorldRotation()
-            let cScale = this.t.getWorldScale()
-
-            // if the distance between the hit and the position is too high
-            // do custom calculation to find the point intersecting the board
-            if (this.t.getWorldPosition().distance(this.prevPos) > 1.2) {
-                let res = this.getTouchPointPlaneIntersections(touchPoint, touchRotation)
-                touchPoint = res[0]
-                touchRotation = res[1]
-            }
-
-            if (this.isStraightHit(touchRotation)) {
-                // Physics off
-                this.physicsBody.dynamic = false
-                this.physicsBody.velocity = vec3.zero()
-
-                // turn the hit into the position of the tip instead of center
-                let childWorldPosition = touchPoint // W_c: child's world position
-                let childLocalPosition = new vec3(0,0,-0.66) // L_c: child's local position
-                let parentTransform = this.t;   // Reference to the parent transform
-                let parentWorldPosition = childWorldPosition.sub(touchRotation.multiplyVec3((childLocalPosition.mult(parentTransform.getWorldScale()))))
-                
-                this.sceneObject.setParent(this.objectHit)
-
-                this.t.setWorldPosition(parentWorldPosition)
-                this.t.setWorldRotation(touchRotation)
-                this.t.setWorldScale(cScale)
-
-//              this.dartboardController.playDartHitSound()
-            }
-            else {
-                // not a straight hit
-//                this.dartboardController.playDartBouncedSound()
-            }
-        }
     }
 
     isStraightHit (rot:quat) {
@@ -205,19 +109,32 @@ export class DartBehavior extends BaseScriptComponent {
             this.prevHandVelocity = this.getHandVelocity()
             this.prevPos = this.t.getWorldPosition()
             this.rotationBuffer.add(this.t.getWorldRotation())
-            this.positionBuffer.add(this.t.getWorldPosition())    
+            this.positionBuffer.add(this.t.getWorldPosition())
+            
+            let endPoint = this.hand.pinkyTip.position
+    
+            let startPoint = this.hand.thumbKnuckle.position.add(this.hand.thumbTip.position).uniformScale(0.5)
+            let direction = startPoint.sub(endPoint)
+ 
+            this.t.setWorldPosition(startPoint.sub(endPoint.sub(startPoint).uniformScale(0.8)))
+            this.t.setWorldRotation(quat.lookAt(direction, vec3.up()))
+            this.physicsBody.velocity = this.getHandVelocity()
+            
+            
+            this.isHolding = this.hand.indexTip.position.distance(this.hand.thumbTip.position) < 6
+            if (!this.isHolding) {
+                this.physicsBody.velocity = this.getHandVelocity()
+                this.isFlying = true
+                this.startedFlyingAt = getTime()
+            }
         }
+
 
         if (this.startedFlyingAt > 0 && getTime() - this.startedFlyingAt > 20) {
             this.destroy()
             return
         }
-
-        if (this.t.getWorldPosition().y < this.GROUND_Y_OFFSET) {
-            this.destroy()
-            return
-        }
-
+        
         this.frameNmr += 1
     }
 
