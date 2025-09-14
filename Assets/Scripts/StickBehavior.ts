@@ -7,9 +7,9 @@ import WorldCameraFinderProvider from "SpectaclesInteractionKit.lspkg/Providers/
 import { SIK } from "SpectaclesInteractionKit.lspkg/SIK";
 
 @component
-export class DartBehavior extends BaseScriptComponent {
-//    @input
-//    audio:AudioComponent
+export class StickBehavior extends BaseScriptComponent {
+    @input
+    audio:AudioComponent
 
     physicsBody:BodyComponent
     interactable:Interactable
@@ -55,6 +55,8 @@ export class DartBehavior extends BaseScriptComponent {
         this.createEvent('OnStartEvent').bind(() => {
           this.onStart();
         });
+        
+        this.audio.playbackMode = Audio.PlaybackMode.LowLatency        
     }
 
     onStart() {
@@ -90,6 +92,13 @@ export class DartBehavior extends BaseScriptComponent {
     }
 
     onCollisionEnter(e) {
+        let stick = e.collision.collider.getSceneObject()
+        if (this.sceneObject != stick) {
+            let isStick = stick.getComponent(StickBehavior.getTypeName())
+            if (isStick) {
+                this.audio.play(3)
+            }
+        }
     }
 
     isStraightHit (rot:quat) {
@@ -136,59 +145,6 @@ export class DartBehavior extends BaseScriptComponent {
         }
         
         this.frameNmr += 1
-    }
-
-    getTouchPointPlaneIntersections (curPoint, curRot):[vec3,quat] {
-        let positivePoint = null
-        let negativeDist = -(this.dartBoardT.getWorldPosition().sub(curPoint).dot(this.dartBoardT.forward))
-        let negativePoint = curPoint
-
-        if (negativeDist > 0) {
-            return [curPoint, curRot]
-        }
-
-        for (var ind = 0; ind < this.positionBuffer.size(); ind++) {
-            let pos = this.positionBuffer.getMostRecentFromInd(ind)
-            let rot = this.rotationBuffer.getOldestValue()
-            let newDist = -(this.dartBoardT.getWorldPosition().sub(pos).dot(this.dartBoardT.forward))
-
-            if (newDist < 0) {
-                negativePoint = pos
-            }
-            else if (newDist < 0.5) {
-                return [pos, rot]
-            }
-            else {
-                positivePoint = pos
-                curRot = rot
-                break;
-            }
-        }
-
-        if (negativePoint != null && positivePoint != null) {
-            let p = this.getPlaneIntersectionsBetweenPoints(negativePoint, positivePoint)
-            return [p, curRot]
-        }
-        else {
-            // defaulting
-            return [curPoint, curRot]
-        }
-    }
-
-    // given two points, finds the direction vector and then the point that 
-    // intersects the plane
-    getPlaneIntersectionsBetweenPoints (pointA, pointB) {
-        let dir = pointB.sub(pointA)
-        let dotProduct = dir.dot(this.dartBoardT.forward)
-
-        let dist = (this.dartBoardT.getWorldPosition().sub(pointA).dot(this.dartBoardT.forward) + this.BOARD_OFFSET)
-        let t = dist / dotProduct
-        let intersectionPoint = pointA.add(dir.uniformScale(t))
-        return intersectionPoint
-    }
-
-    destroy () {
-        this.sceneObject.destroy()
     }
 
     getHandVelocity(): vec3 {

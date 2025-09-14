@@ -70,6 +70,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/29a88595-8b51-4ee2-b1e5-d06b98961b47>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> bf6be827-f687-4847-806d-2b2f86f3624b
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/70c8b49f-0999-4d24-b85a-e84a57041019>
   PrefabRemaps:
     []
@@ -92,6 +109,24 @@
     - !<own> 02ddfc21-6af8-489a-aa68-679b0c104b74
     - !<own> 0d480fca-9517-48be-84b8-d20664e82ca5
     - !<own> 19f43ba5-c5ee-49f6-9584-5be5d9b3a361
+    - !<own> 29a88595-8b51-4ee2-b1e5-d06b98961b47
+    - !<own> 7cb377a4-8a59-400f-bbf8-b6f216f5783c
+- !<ScriptComponent/7cb377a4-8a59-400f-bbf8-b6f216f5783c>
+  PrefabRemaps:
+    []
+  Name: stick_collision
+  Enabled: true
+  ScriptAsset: !<reference> d68fefdd-ab14-4c59-9c79-074835411768
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<BodyComponent/8303d9ca-2db2-40f9-86a1-7ef2039a0c8e>
   PrefabRemaps:
     []
@@ -99,7 +134,7 @@
   Enabled: true
   Shape: !<Capsule>
     Axis: Z
-    Length: 30.000000
+    Length: 35.000000
     Radius: 1.000000
   Matter: !<reference> 9cfbf0c8-bf10-4247-aa02-918b05c18f37
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -252,8 +287,10 @@
       {}
 - !<ObjectPrefabAssetData/ea51b49a-084a-43c9-95c2-11f17a1e44a2>
   SourceRemaps:
+    - 04edbbf4-9e90-47b7-8f30-71d1a26368c9: 29a88595-8b51-4ee2-b1e5-d06b98961b47
     - 135abf13-baeb-4f47-8440-ee9b08e970c9: 70c8b49f-0999-4d24-b85a-e84a57041019
     - 27e8a63b-a43c-415d-87e6-a85af864262a: 8303d9ca-2db2-40f9-86a1-7ef2039a0c8e
+    - 296bf8cc-5e15-48e2-9582-59af13cefac9: 7cb377a4-8a59-400f-bbf8-b6f216f5783c
     - 3ee4558b-c617-4612-a4d9-d58f54b041e2: ba58422d-0041-4ba0-b843-71c73aec1609
     - 53825418-c696-4acb-80c8-024843ac080a: 02ddfc21-6af8-489a-aa68-679b0c104b74
     - 6012e2d5-4b2f-474b-85fd-ba1068813aa4: 0d480fca-9517-48be-84b8-d20664e82ca5

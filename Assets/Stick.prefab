@@ -4,6 +4,23 @@
     - !<own> 135abf13-baeb-4f47-8440-ee9b08e970c9
   LazyLoading: false
   RetainAssets: true
+- !<AudioComponent/04edbbf4-9e90-47b7-8f30-71d1a26368c9>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> bf6be827-f687-4847-806d-2b2f86f3624b
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/135abf13-baeb-4f47-8440-ee9b08e970c9>
   PrefabRemaps:
     []
@@ -26,6 +43,8 @@
     - !<own> 53825418-c696-4acb-80c8-024843ac080a
     - !<own> 6012e2d5-4b2f-474b-85fd-ba1068813aa4
     - !<own> a81a0d99-862b-4199-83ec-cb007d47b48c
+    - !<own> 04edbbf4-9e90-47b7-8f30-71d1a26368c9
+    - !<own> 296bf8cc-5e15-48e2-9582-59af13cefac9
 - !<BodyComponent/27e8a63b-a43c-415d-87e6-a85af864262a>
   PrefabRemaps:
     []
@@ -33,7 +52,7 @@
   Enabled: true
   Shape: !<Capsule>
     Axis: Z
-    Length: 30.000000
+    Length: 35.000000
     Radius: 1.000000
   Matter: !<reference> 9cfbf0c8-bf10-4247-aa02-918b05c18f37
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -50,6 +69,22 @@
   BodySettingValue: 1.000000
   Damping: 0.000000
   AngularDamping: 0.000000
+- !<ScriptComponent/296bf8cc-5e15-48e2-9582-59af13cefac9>
+  PrefabRemaps:
+    []
+  Name: stick_collision
+  Enabled: true
+  ScriptAsset: !<reference> d68fefdd-ab14-4c59-9c79-074835411768
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/3ee4558b-c617-4612-a4d9-d58f54b041e2>
   PrefabRemaps:
     []

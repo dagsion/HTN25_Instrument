@@ -1,13 +1,13 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 1578
+    size: 1579
     values:
-      - Audio
-      - Audio/bass_drum_hit.wav
+      - Audio/bass_drum_hit copy.wav
       - Audio/big_cymbal.wav
       - Audio/closed_hi_hat.wav
       - Audio/cymbal.wav
+      - Audio/drum-stick-hit.mp3
       - Audio/floor_tom.mp3
       - Audio/mid_tom_1.mp3
       - Audio/mid_tom_2.mp3
@@ -107,11 +107,13 @@ CollapsedEntities:
       - Instruments Pack.lspkg/Textures/violin_case_color.png
       - Instruments Pack.lspkg/Textures/violin_color.png
       - Instruments Pack.lspkg/package.native
+      - Internet Module.internetModule
       - Materials
       - Note
       - Physics
       - Prefabs/left stick.prefab
       - Prefabs/right stick.prefab
+      - Remote Service Module.remoteServiceModule
       - Scene
       - Scripts/DartBehavior.ts
       - Scripts/ToolPickerBehavior.ts
@@ -378,7 +380,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Components/UI/Slider/Slider.ts
       - SpectaclesInteractionKit.lspkg/Components/UI/ToggleButton
       - SpectaclesInteractionKit.lspkg/Components/UI/ToggleButton/ToggleButton.ts
-      - SpectaclesInteractionKit.lspkg/Core
       - SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator
       - SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator/ConfigurationValidator.ts
       - SpectaclesInteractionKit.lspkg/Core/HandInteractor
@@ -386,7 +387,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit.lspkg/Core/InteractionManager
       - SpectaclesInteractionKit.lspkg/Core/InteractionManager/EventDispatcher.ts
       - SpectaclesInteractionKit.lspkg/Core/InteractionManager/InteractionManager.ts
-      - SpectaclesInteractionKit.lspkg/Core/Interactor
       - SpectaclesInteractionKit.lspkg/Core/Interactor/BaseInteractor.ts
       - SpectaclesInteractionKit.lspkg/Core/Interactor/ColliderTargetProvider.ts
       - SpectaclesInteractionKit.lspkg/Core/Interactor/DirectTargetProvider.ts
@@ -523,7 +523,6 @@ CollapsedEntities:
       - Textures
       - ToolPicker.prefab
       - ToolPickerBehavior.ts
-      - Untitled TypeScript.ts
       - Vinyls Box
       - model
       - model/drumset.3ds
@@ -1581,4 +1580,6 @@ CollapsedEntities:
       - model/drumset.obj/Meshes/sphere63
       - model/drumset.obj/drumset
       - simple_pbr.ss_graph
+      - stick_collision.ts
+      - theKicker.ts
   options: 4

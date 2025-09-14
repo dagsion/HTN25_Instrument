@@ -2,6 +2,7 @@ ExternalSources:
   type: "std::map<Es::Uuid, Es::Path>"
   value:
     - 0353ce98-6133-4849-b0f3-0e011f300f2f: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/Utils/ScreenLogger.ts
+    - 08cb7c13-90b8-4425-be68-bfe47b355a47: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/TypeScript/Resources/Untitled TypeScript.ts
     - 1551de91-169c-4661-8896-833f7566fbb7: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/Utils/AnimateTextOpacity.ts
     - 155f9f2a-9795-4b28-b635-5220a79b8bfe: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_etUUpC/Grab Object With Hand.lspkg
     - 28ae859f-eacb-4a68-9094-51bed7449913: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/ThrowBehavior.ts
@@ -11,6 +12,7 @@ ExternalSources:
     - 81674ae8-89c4-4695-ad23-86d18efde057: /Users/davidxu/Library/Preferences/Snap/Lens Studio/LibraryComponents/SpectaclesInteractionKitExamples.lspkg
     - 8596a3ef-ac2f-457a-bc7d-4777b093be37: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/DartBoardController.ts
     - 89b13c5b-45d8-4db4-b22d-4b63bb32013c: /Users/davidxu/Downloads/drumset.obj
+    - 9be9fad4-f844-47d2-97d8-b40fc3af6a39: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/TypeScript/Resources/Untitled TypeScript.ts
     - a530abe7-0a47-4970-87b5-b4d7b69863fc: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_FBKZYZ/Throw Lab/Assets/Scripts/ToolPickerBehavior.ts
     - b6f7b693-4780-4191-bb7a-8b06706d9404: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/Utils/Buffer.ts
     - c155a874-d502-4a20-98b4-085848ceb239: /Applications/Lens Studio.app/Contents/Plugins/Es_ShaderGraph_Model.bundle/InstantiationResources/simple_pbr.ss_graph
@@ -19,7 +21,6 @@ ExternalSources:
     - e01ed016-6dd5-4e36-a908-ea310e3e5f88: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/PingPongBallBehavior.ts
     - e2050a75-c2f1-4323-9425-c90374fd3827: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/ToolPickerBehavior.ts
     - f5601236-7f7e-4f99-8bee-50266af8925e: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Physics/oil_paint.ss_graph
-    - f81caaf3-b6e4-41f7-9811-be91681e01a6: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/TypeScript/Resources/Untitled TypeScript.ts
     - f972a117-9c0c-449f-a357-d5cb35e3d848: /private/var/folders/r3/7j8p9nvj0p3g5hpjgps_g3kh0000gn/T/LensStudio_lwSFyK/Throw Lab/Assets/Scripts/TennisBallBehavior.ts
     - fb0d57e6-907b-4dd0-98dd-b22e6e14ab63: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/TypeScript/Resources/Untitled TypeScript.ts
   options: 4

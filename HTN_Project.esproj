@@ -29,7 +29,7 @@ metaInfo:
     []
   lensName: DJSpecs
   lensDescriptors:
-    []
+    - EXPERIMENTAL_API
   lensApplicability:
     - Front
     - Back
