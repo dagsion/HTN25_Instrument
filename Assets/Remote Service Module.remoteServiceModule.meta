@@ -1,8 +1,8 @@
-- !<AssetImportMetadata/79171676-374a-4df8-a863-78c22878e6ad>
+- !<AssetImportMetadata/66d1b41a-cfa2-4bee-a651-1d37c5b8d880>
   ImportedAssetIds:
-    FileAudioTrack: !<reference> aee1517b-8543-4799-be6f-688fdbef6e7e
-  ImporterName: FileAudioTrackImporter
-  PrimaryAsset: !<reference> aee1517b-8543-4799-be6f-688fdbef6e7e
+    RemoteServiceModule: !<reference> 89bbc39e-d332-404c-b1e2-c641009e108b
+  ImporterName: RemoteServiceModuleImporter
+  PrimaryAsset: !<reference> 89bbc39e-d332-404c-b1e2-c641009e108b
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   ExtraData:
