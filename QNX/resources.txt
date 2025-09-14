@@ -1,0 +1,8 @@
+https://developers.snap.com/spectacles/about-spectacles-features/apis/web-socket
+
+https://pinout.xyz/pinout/pin3_gpio2/
+https://components101.com/sites/default/files/component_datasheet/MCP3008%20Datasheet.pdf
+https://components101.com/ics/mcp3008-adc-pinout-equivalent-datasheet
+https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/blob/main/adafruit_mcp3xxx/mcp3008.py
+
+https://gitlab.com/qnx/projects/hardware-component-samples
